@@ -1,0 +1,216 @@
+# Site
+repository: tothlp/tothlp.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Tóth László
+title: Full-Stack Developer
+email: hello@tothlp.hu
+email_title: <i class="far fa-envelope"></i>
+phone: Szeged
+phone_title: <i class="far fa-home"></i>
+#website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: tothlp
+github_username:  tothlp
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: tothlp
+linkedin_username: tothlp
+#xbox_username: tothlp
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: fab fa-telegram
+  url: https://t.me/tothlp
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-WHNXZE6LBQ"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Rólam
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Szia! Tóth László vagyok, Full-Stack szoftverfejlesztő. Jelenleg a Régens Zrt.-nél dolgozom, ahol <mark>Kotlin</mark>, <mark>Java</mark> és <mark>Typescript</mark> nyelveken fejlesztek.
+
+  Látásmódom szerint a szoftverfejlesztés komoly alkotói munka, amellyel értéket lehet létrehozni.
+  Munkám során fontos számomra, hogy olyan megoldásokat fejlesszek, amelyek minél jobban megkönnyítik az ügyfelek munkavégzését.
+  Szeretem több szemszögből látni az alkalmazásokat, így egyrészt
+  lényegesnek tartom a problémák ügyfélközpontú megközelítését, másrészt --ha lehetőségem van rá-- szeretek némiképp rálátni a szoftver üzemeltetésére is.
+  Nyitott vagyok az új technológiák megismerésére. Nem zárkózom el új *területek* megismerésétől sem, de nem titkolt célom, hogy főleg az eddigi területeken szerzett tudásomat
+  szeretném minél jobban elmélyíteni.
+
+content:
+  - title: <small><i class="fas fa-tools"></i> </small>  Skills   <small><i class="fas fa-feather"></i></small>
+    layout: text
+    content: |
+      ## Mindennapi eszköztáram
+      <small>Ezeket a technológiákat szinte napi szinten használom a munkám, vagy a magánéletem során.</small>
+      * Nyelvek: <mark><i class="fab fa-java"></i> Java</mark> <mark>Kotlin</mark> <mark>Typescript</mark> <mark><i class="fab fa-html5"></i> HTML</mark> <mark><i class="fab fa-css3-alt"></i> CSS</mark>
+      * Keretrendszerek: <mark>Spring Boot</mark> <mark><i class="fab fa-angular"></i> Angular</mark>
+      * OS: <mark><i class="fab fa-apple" alt="macOS"></i> macOS</mark> <mark title="Ubuntu, Debian, Arch"><i class="fab fa-linux"></i> GNU/Linux</mark> <mark><i class="fab fa-windows"></i> Windows</mark>
+      * Egyéb technológiák: / tool-ok: <mark><i class="fas fa-terminal"></i> Bash</mark> <mark><i class="fab fa-git-alt"></i> Git</mark>  <mark><i class="fab fa-gitlab"></i> Gitlab & Gitlab CI/CD</mark>
+      <mark><i class="fab fa-docker"></i> Docker</mark> <mark><i class="fab fa-jenkins"></i> Jenkins</mark>
+      <mark>Redmine</mark> <mark><i class="fas fa-database"></i> MySQL</mark> <mark><i class="fab fa-markdown"></i> Markdown</mark> <mark>Gradle</mark>
+      * Appok: <mark>VS Code</mark> <mark><i class="fab fa-gitkraken"></i> GitKraken</mark> <mark>IDEA</mark> <mark>Brave</mark>
+
+      ## Elrejtett svájci bicskák
+      <small>Ezeket a technológiákat ritkábban használom; viszont ha úgy adódik, jó, hogy kéznél vannak.</small>
+
+      <mark><i class="fas fa-gem"></i> Ruby</mark> <mark>Jekyll</mark> <mark>Latex</mark>
+
+      ## Ismerős arcok
+      <small>Ez pedig egy lista azokról a technológiákról, amikkel *már* rozsdásabban, de beszélek.</small>
+
+      <mark>Ruby on Rails</mark> <mark><i class="fab fa-laravel"></i> Laravel</mark> <mark><i class="fab fa-bootstrap"></i> Bootstrap</mark> <mark><i class="fab fa-js"></i> Pure JS</mark>
+      <mark>JQuery</mark> <mark><i class="fab fa-php"></i> PHP</mark> <mark>C</mark> <mark>C#</mark> <mark>Wolfram Mathematica</mark> <mark>Heroku</mark> <mark>NestJS</mark> <mark>Oracle DB</mark>
+      <mark>Vagrant</mark>
+  - title: Projektek # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: center
+        title: Blog / Landing
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        description: |
+          Szerettem volna egy helyet, ahol elérhetőségekkel együtt össze van szedve pár infó rólam. Az oldal motorházteteje alatt a <mark>Jekyll</mark> dübörög, és a Gitlab - Pages szolgáltatása hosztolja.
+      # - layout: left
+      #   title: Blog / Landing
+      #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   link_text: Link Text
+      #   additional_links:
+      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #       icon: fab fa-github
+      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #       icon: fab fa-github
+      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   quote: >
+      #     Short overview of the project (optional)
+      #   description: | # this will include new lines to allow paragraphs
+      #     Description about the work on/with the project
+  - title: Tapasztalat
+    layout: list
+    content:
+      - layout: right
+        title: Régens Zrt.
+        sub_title: Full-Stack Developer
+        caption: 2017 július - jelenleg
+        link: www.regens.com
+        description: | # this will include new lines to allow paragraphs
+          2017 júliusában kezdtem a Régensnél dolgozni, mint Backend fejlesztő gyakornok. Gyakornoki időm alatt feladataim a backend-fejlesztés alapjainak elsajátítása köré épültek. Itt főleg
+          a Spring Boot keretrendszer sajátosságaival ismerkedtem meg, viszont másodlagos skillsetként igyekeztem ismereteket szerezni a CI/CD alapjaiból.
+
+          A gyakornoki időm leteltével fokozatosan beletanultam a Front-end fejlesztésbe is. Számos projekten dolgoztam, azonban főleg a pénzügyi alkalmazásaink fejlesztésében vettem részt.
+          Itt lehetőségem nyílt több alkalmazásból álló komplexebb rendszerek megismerésére, valamint a számlázási és  adatszolgáltatási folyamatok megismerésére.
+      - layout: left
+        title: SZTE EHÖK
+        sub_title: Web Developer
+        caption: 2016 - 2017
+        description: | # this will include new lines to allow paragraphs
+            Egy szakmai közösség tagjaként a SZTE Hallgatói önkormányzatok weboldalainak fejlesztésében vettem részt, ahol <mark>PHP</mark> és <mark>Laravel</mark> használatában szereztem ismereteket.
+  - title: Tanulmányok
+    layout: list
+    content:
+      - layout: top-right
+        title: Szegedi Tudományegyetem
+        sub_title: Programtervező informatikus BSc
+        caption: 2013 - 2019
+        #quote: >
+        #  Short institution or course description (optional)
+        #description: | # this will include new lines to allow paragraphs
+        #  Description of qualification
+  - title: Önkéntesség
+    layout: list
+    content:
+      - layout: left
+        title: Sík Sándor Piarista Egyetemi Szakkollégium
+        sub_title: Diákbizottsági tag
+        caption: 2014 - 2018
+        #quote: >
+        #  Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+            - Részvétel a kollégium programjainak szervezésében és lebonyolításában
+            - A belső és külső kommunikációs csatornák működtetése
+            - Az informatikai háttér karbantartása
+            - Közösségi feladatok koordinálása
+            - Segítség az adminisztrációs feladatokban
+  - title: Egy kicsit több infó rólam
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      > "Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni." <br/><br/>
+      > /Flash Rosenberg/
+
+      Szeretek Tech cikkeket olvasni. Van néhány alkalmazás, amelynek rendszeresen elolvasom a changelogját, mert nagyon várom őket. Ha nem cikkeket olvasok, akkor főleg fantasy és YA regényeket.
+      Sok angol kifejezést használok a mindennapi beszédemben. Szeretek főzni. Sosem voltam örökmozgó, de szeretek jógázni és biciklizni.
+      Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok. Kávéfüggő vagyok. Szeretem a világos pörkölésű kávét, és az alternatív elkészítési módokat. Szabadidőmben néha videójátékokat nyösztetek, szigorúan konzolon.
+  - title: Gear
+    layout: list
+    content:
+      - layout: left
+        # border: weak // or no value.
+        title: Kávé <i class="fas fa-coffee"></i>
+        sub_title: Mivel főzök reggel
+        description: |
+          * **Brewer:** Aeropress / Nanopresso / Aeropress with Prismo
+          * **Scale:** Timemore Black Mirror Basic
+          * **Grinder:** 1Zpresso JX
+          * **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
+      - layout: right
+        title: <i class="fas fa-microchip"></i> Hardverek
+        sub_title: Mivel dolgozom utána
+        description: |
+          * <i class="fas fa-desktop"></i> Mac mini 2018 (i3 3,6 GHz, 8GB) + Asus VZ249HE
+          * <i class="fas fa-headphones"></i> Sony WH-1000XM3
+  - title: Kapcsolat
+    layout: text
+    content: |
+      Az oldal tetején látható szinte az összes elérhetőségem. Az emaileket naponta nézem, írj bátran!
+      Chatszolgáltatások tekintetében preferálom a titkosított szolgáltatásokat. Főleg <mark><i class="fab fa-telegram"> Telegram</i></mark>-ot használok, de elérhető vagyok Signal-on is.
+# Footer
+footer_show_references: true
+references_title: 'Utolsó frissítés: 2023.03.01.'
+
+# Build settings
+#theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  "tothlp.github.io.code-workspace"
+  ]
