@@ -5,8 +5,10 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
+last_update: &last_update 2023.03.02.
+
 # Personal info
-name: Tóth László
+name: &author Tóth László
 title: Full-Stack Developer
 email: hello@tothlp.hu
 email_title: <i class="far fa-envelope"></i>
@@ -50,7 +52,7 @@ gtag: "G-WHNXZE6LBQ"
 about_title: Rólam
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Szia! Tóth László vagyok, Full-Stack szoftverfejlesztő. Jelenleg a Régens Zrt.-nél dolgozom, ahol <mark>Kotlin</mark>, <mark>Java</mark> és <mark>Typescript</mark> nyelveken fejlesztek.
+  Szia! *Tóth László* vagyok, Full-Stack szoftverfejlesztő. Jelenleg a Régens Zrt.-nél dolgozom, ahol ![Kotlin](https://img.shields.io/badge/-Kotlin-black?logo=kotlin), ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black) és ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=white) nyelveken fejlesztek.
 
   Látásmódom szerint a szoftverfejlesztés komoly alkotói munka, amellyel értéket lehet létrehozni.
   Munkám során fontos számomra, hogy olyan megoldásokat fejlesszek, amelyek minél jobban megkönnyítik az ügyfelek munkavégzését.
@@ -63,9 +65,10 @@ content:
   - title: <small><i class="fas fa-tools"></i> </small>  Skills   <small><i class="fas fa-feather"></i></small>
     layout: text
     content: |
-      ## Mindennapi eszköztáram
-      <small>Ezeket a technológiákat szinte napi szinten használom a munkám, vagy a magánéletem során.</small>
-      * Nyelvek: <mark><i class="fab fa-java"></i> Java</mark> <mark>Kotlin</mark> <mark>Typescript</mark> <mark><i class="fab fa-html5"></i> HTML</mark> <mark><i class="fab fa-css3-alt"></i> CSS</mark>
+      ## Nyelvek
+
+      ![Kotlin](https://img.shields.io/badge/-Kotlin-444?logo=kotlin&style=for-the-badge) ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black&style=for-the-badge) ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge) ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge) ![CSS3](https://img.shields.io/badge/-CSS3-1572b6?logo=css3&style=for-the-badge) 
+      ![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=for-the-badge&logo=ruby) ![Javascript](https://img.shields.io/badge/-Javascript-444?style=for-the-badge&logo=javascript) ![Latex](https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Wolfram](https://img.shields.io/badge/-Wolfram-DD1100?style=for-the-badge&logo=wolfram) ![Markdown](https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown)
       * Keretrendszerek: <mark>Spring Boot</mark> <mark><i class="fab fa-angular"></i> Angular</mark>
       * OS: <mark><i class="fab fa-apple" alt="macOS"></i> macOS</mark> <mark title="Ubuntu, Debian, Arch"><i class="fab fa-linux"></i> GNU/Linux</mark> <mark><i class="fab fa-windows"></i> Windows</mark>
       * Egyéb technológiák: / tool-ok: <mark><i class="fas fa-terminal"></i> Bash</mark> <mark><i class="fab fa-git-alt"></i> Git</mark>  <mark><i class="fab fa-gitlab"></i> Gitlab & Gitlab CI/CD</mark>
@@ -188,7 +191,7 @@ content:
       Chatszolgáltatások tekintetében preferálom a titkosított szolgáltatásokat. Főleg <mark><i class="fab fa-telegram"> Telegram</i></mark>-ot használok, de elérhető vagyok Signal-on is.
 # Footer
 footer_show_references: true
-references_title: 'Utolsó frissítés: 2023.03.01.'
+references_title: *last_update
 
 # Build settings
 #theme: modern-resume-theme
