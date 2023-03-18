@@ -68,25 +68,59 @@ content:
       ## Nyelvek
 
       ![Kotlin](https://img.shields.io/badge/-Kotlin-444?logo=kotlin&style=for-the-badge) ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black&style=for-the-badge) ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge) ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge) ![CSS3](https://img.shields.io/badge/-CSS3-1572b6?logo=css3&style=for-the-badge) 
-      ![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=for-the-badge&logo=ruby) ![Javascript](https://img.shields.io/badge/-Javascript-444?style=for-the-badge&logo=javascript) ![Latex](https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![Wolfram](https://img.shields.io/badge/-Wolfram-DD1100?style=for-the-badge&logo=wolfram) ![Markdown](https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown)
-      * Keretrendszerek: <mark>Spring Boot</mark> <mark><i class="fab fa-angular"></i> Angular</mark>
-      * OS: <mark><i class="fab fa-apple" alt="macOS"></i> macOS</mark> <mark title="Ubuntu, Debian, Arch"><i class="fab fa-linux"></i> GNU/Linux</mark> <mark><i class="fab fa-windows"></i> Windows</mark>
-      * Egyéb technológiák: / tool-ok: <mark><i class="fas fa-terminal"></i> Bash</mark> <mark><i class="fab fa-git-alt"></i> Git</mark>  <mark><i class="fab fa-gitlab"></i> Gitlab & Gitlab CI/CD</mark>
-      <mark><i class="fab fa-docker"></i> Docker</mark> <mark><i class="fab fa-jenkins"></i> Jenkins</mark>
-      <mark>Redmine</mark> <mark><i class="fas fa-database"></i> MySQL</mark> <mark><i class="fab fa-markdown"></i> Markdown</mark> <mark>Gradle</mark>
-      * Appok: <mark>VS Code</mark> <mark><i class="fab fa-gitkraken"></i> GitKraken</mark> <mark>IDEA</mark> <mark>Brave</mark>
+      ![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=for-the-badge&logo=ruby) 
+      ![Latex](https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex) ![Wolfram](https://img.shields.io/badge/-Wolfram-DD1100?style=for-the-badge&logo=wolfram) ![Markdown](https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown) 
 
-      ## Elrejtett svájci bicskák
-      <small>Ezeket a technológiákat ritkábban használom; viszont ha úgy adódik, jó, hogy kéznél vannak.</small>
+      ## Keretrendszerek
 
-      <mark><i class="fas fa-gem"></i> Ruby</mark> <mark>Jekyll</mark> <mark>Latex</mark>
+      ![SpringBoot](https://img.shields.io/badge/-SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular) 
+      ![Ruby on Rails](https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=for-the-badge&logo=rubyonrails) 
+      ![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logoColor=white&logo=nestjs) 
+      ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?style=for-the-badge&logoColor=white&logo=jekyll) 
+      ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+      ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) 
 
-      ## Ismerős arcok
-      <small>Ez pedig egy lista azokról a technológiákról, amikkel *már* rozsdásabban, de beszélek.</small>
+      ## Adatbázisok
 
-      <mark>Ruby on Rails</mark> <mark><i class="fab fa-laravel"></i> Laravel</mark> <mark><i class="fab fa-bootstrap"></i> Bootstrap</mark> <mark><i class="fab fa-js"></i> Pure JS</mark>
-      <mark>JQuery</mark> <mark><i class="fab fa-php"></i> PHP</mark> <mark>C</mark> <mark>C#</mark> <mark>Wolfram Mathematica</mark> <mark>Heroku</mark> <mark>NestJS</mark> <mark>Oracle DB</mark>
-      <mark>Vagrant</mark>
+      ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
+      ![Oracle](https://img.shields.io/badge/-Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
+
+      ## Verziókezelés
+
+      ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+      ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+      ![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+
+      ## OS
+      
+      ![macOS](https://img.shields.io/badge/-macOS-black?style=for-the-badge&logo=macos&logoColor=white)
+      ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+      ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+      
+      ## Hosting / CI/CD
+
+      ![Heroku](https://img.shields.io/badge/-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+      ![GitLab Pipelines](https://img.shields.io/badge/-GitLab%20Pipelines-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+      ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-black?style=for-the-badge&logo=githubpages&logoColor=white)
+      ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logoColor=white&logo=jenkins)
+
+      ## Környezetkezelés
+      ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logoColor=white&logo=docker)
+      ![Vagrant](https://img.shields.io/badge/-Vagrant-1868F2?style=for-the-badge&logoColor=white&logo=vagrant)
+
+      ## Build / Függőségkezelés
+
+      ![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=for-the-badge&logoColor=white&logo=gradle)
+      ![Yarn](https://img.shields.io/badge/-Yarn-2C8EBB?style=for-the-badge&logoColor=white&logo=yarn)
+
+      ## App / Egyéb
+
+      ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logoColor=white&logo=gnubash) 
+      ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logoColor=white&logo=visualstudiocode)
+      ![Windows Terminal](https://img.shields.io/badge/-Windows%20Terminal-4D4D4D?style=for-the-badge&logoColor=white&logo=windowsterminal)
+      ![IntelliJ IDEA](https://img.shields.io/badge/-IDEA-000000?style=for-the-badge&logoColor=white&logo=intellijidea)
+
+
   - title: Projektek # Title for the section
     layout: list # Type of content section (list/text)
     content:
