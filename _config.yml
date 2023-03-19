@@ -5,8 +5,10 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
+last_update: &last_update 2023.03.19.
+
 # Personal info
-name: Tóth László
+name: &author Tóth László
 title: Full-Stack Developer
 email: hello@tothlp.hu
 email_title: <i class="far fa-envelope"></i>
@@ -50,40 +52,75 @@ gtag: "G-WHNXZE6LBQ"
 about_title: Rólam
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Szia! Tóth László vagyok, Full-Stack szoftverfejlesztő. Jelenleg a Régens Zrt.-nél dolgozom, ahol <mark>Kotlin</mark>, <mark>Java</mark> és <mark>Typescript</mark> nyelveken fejlesztek.
+  Szia! *Tóth László* vagyok, Full-Stack szoftverfejlesztő. Jelenleg főleg ![Kotlin](https://img.shields.io/badge/-Kotlin-black?logo=kotlin), ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black) és ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=white) nyelveken fejlesztek.
 
   Látásmódom szerint a szoftverfejlesztés komoly alkotói munka, amellyel értéket lehet létrehozni.
   Munkám során fontos számomra, hogy olyan megoldásokat fejlesszek, amelyek minél jobban megkönnyítik az ügyfelek munkavégzését.
   Szeretem több szemszögből látni az alkalmazásokat, így egyrészt
   lényegesnek tartom a problémák ügyfélközpontú megközelítését, másrészt --ha lehetőségem van rá-- szeretek némiképp rálátni a szoftver üzemeltetésére is.
-  Nyitott vagyok az új technológiák megismerésére. Nem zárkózom el új *területek* megismerésétől sem, de nem titkolt célom, hogy főleg az eddigi területeken szerzett tudásomat
+  Nyitott vagyok az új technológiák megismerésére. Nem zárkózom el új *területek* megismerésétől sem, de nem titkolt célom, hogy eddigi tudásomat is
   szeretném minél jobban elmélyíteni.
 
 content:
   - title: <small><i class="fas fa-tools"></i> </small>  Skills   <small><i class="fas fa-feather"></i></small>
     layout: text
     content: |
-      ## Mindennapi eszköztáram
-      <small>Ezeket a technológiákat szinte napi szinten használom a munkám, vagy a magánéletem során.</small>
-      * Nyelvek: <mark><i class="fab fa-java"></i> Java</mark> <mark>Kotlin</mark> <mark>Typescript</mark> <mark><i class="fab fa-html5"></i> HTML</mark> <mark><i class="fab fa-css3-alt"></i> CSS</mark>
-      * Keretrendszerek: <mark>Spring Boot</mark> <mark><i class="fab fa-angular"></i> Angular</mark>
-      * OS: <mark><i class="fab fa-apple" alt="macOS"></i> macOS</mark> <mark title="Ubuntu, Debian, Arch"><i class="fab fa-linux"></i> GNU/Linux</mark> <mark><i class="fab fa-windows"></i> Windows</mark>
-      * Egyéb technológiák: / tool-ok: <mark><i class="fas fa-terminal"></i> Bash</mark> <mark><i class="fab fa-git-alt"></i> Git</mark>  <mark><i class="fab fa-gitlab"></i> Gitlab & Gitlab CI/CD</mark>
-      <mark><i class="fab fa-docker"></i> Docker</mark> <mark><i class="fab fa-jenkins"></i> Jenkins</mark>
-      <mark>Redmine</mark> <mark><i class="fas fa-database"></i> MySQL</mark> <mark><i class="fab fa-markdown"></i> Markdown</mark> <mark>Gradle</mark>
-      * Appok: <mark>VS Code</mark> <mark><i class="fab fa-gitkraken"></i> GitKraken</mark> <mark>IDEA</mark> <mark>Brave</mark>
+      ## Nyelvek
 
-      ## Elrejtett svájci bicskák
-      <small>Ezeket a technológiákat ritkábban használom; viszont ha úgy adódik, jó, hogy kéznél vannak.</small>
+      ![Kotlin](https://img.shields.io/badge/-Kotlin-444?logo=kotlin&style=for-the-badge) ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black&style=for-the-badge) ![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=typescript&logoColor=white&style=for-the-badge) ![HTML](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge) ![CSS3](https://img.shields.io/badge/-CSS3-1572b6?logo=css3&style=for-the-badge) 
+      ![Ruby](https://img.shields.io/badge/-Ruby-cc342d?style=for-the-badge&logo=ruby) 
+      ![Latex](https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex) ![Wolfram](https://img.shields.io/badge/-Wolfram-DD1100?style=for-the-badge&logo=wolfram) ![Markdown](https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown) 
 
-      <mark><i class="fas fa-gem"></i> Ruby</mark> <mark>Jekyll</mark> <mark>Latex</mark>
+      ## Keretrendszerek
 
-      ## Ismerős arcok
-      <small>Ez pedig egy lista azokról a technológiákról, amikkel *már* rozsdásabban, de beszélek.</small>
+      ![SpringBoot](https://img.shields.io/badge/-SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular) 
+      ![Ruby on Rails](https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=for-the-badge&logo=rubyonrails) 
+      ![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logoColor=white&logo=nestjs) 
+      ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?style=for-the-badge&logoColor=white&logo=jekyll) 
+      ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+      ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) 
 
-      <mark>Ruby on Rails</mark> <mark><i class="fab fa-laravel"></i> Laravel</mark> <mark><i class="fab fa-bootstrap"></i> Bootstrap</mark> <mark><i class="fab fa-js"></i> Pure JS</mark>
-      <mark>JQuery</mark> <mark><i class="fab fa-php"></i> PHP</mark> <mark>C</mark> <mark>C#</mark> <mark>Wolfram Mathematica</mark> <mark>Heroku</mark> <mark>NestJS</mark> <mark>Oracle DB</mark>
-      <mark>Vagrant</mark>
+      ## Adatbázisok
+
+      ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
+      ![Oracle](https://img.shields.io/badge/-Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
+
+      ## Verziókezelés
+
+      ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+      ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+      ![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+
+      ## OS
+      
+      ![macOS](https://img.shields.io/badge/-macOS-black?style=for-the-badge&logo=macos&logoColor=white)
+      ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+      ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+      
+      ## Hosting / CI/CD
+
+      ![Heroku](https://img.shields.io/badge/-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+      ![GitLab Pipelines](https://img.shields.io/badge/-GitLab%20Pipelines-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+      ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-black?style=for-the-badge&logo=githubpages&logoColor=white)
+      ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logoColor=white&logo=jenkins)
+
+      ## Környezetkezelés
+      ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logoColor=white&logo=docker)
+      ![Vagrant](https://img.shields.io/badge/-Vagrant-1868F2?style=for-the-badge&logoColor=white&logo=vagrant)
+
+      ## Build / Függőségkezelés
+
+      ![Gradle](https://img.shields.io/badge/-Gradle-02303A?style=for-the-badge&logoColor=white&logo=gradle)
+      ![Yarn](https://img.shields.io/badge/-Yarn-2C8EBB?style=for-the-badge&logoColor=white&logo=yarn)
+
+      ## App / Egyéb
+
+      ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=for-the-badge&logoColor=white&logo=gnubash) 
+      ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logoColor=white&logo=visualstudiocode)
+      ![Windows Terminal](https://img.shields.io/badge/-Windows%20Terminal-4D4D4D?style=for-the-badge&logoColor=white&logo=windowsterminal)
+      ![IntelliJ IDEA](https://img.shields.io/badge/-IDEA-000000?style=for-the-badge&logoColor=white&logo=intellijidea)
+
+
   - title: Projektek # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -92,8 +129,8 @@ content:
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         #link_text: Link Text
         description: |
-          Szerettem volna egy helyet, ahol elérhetőségekkel együtt össze van szedve pár infó rólam. Az oldal motorházteteje alatt a <mark>Jekyll</mark> dübörög, és a Gitlab - Pages szolgáltatása hosztolja.
-      # - layout: left
+          Szerettem volna egy helyet, ahol elérhetőségekkel együtt össze van szedve pár infó rólam. Az oldal motorházteteje alatt a ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?logoColor=white&logo=jekyll) dübörög, és a ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-black?logo=githubpages&logoColor=white) szolgálja ki.
+      # - layout: left 
       #   title: Blog / Landing
       #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
       #   link_text: Link Text
@@ -117,24 +154,24 @@ content:
         caption: 2017 július - jelenleg
         link: www.regens.com
         description: | # this will include new lines to allow paragraphs
-          2017 júliusában kezdtem a Régensnél dolgozni, mint Backend fejlesztő gyakornok. Gyakornoki időm alatt feladataim a backend-fejlesztés alapjainak elsajátítása köré épültek. Itt főleg
+          A Régensnél, mint Backend fejlesztő gyakornok kezdtem el dolgozni. Akkoriban feladataim a backend-fejlesztés alapjainak elsajátítása köré épültek. Itt főleg
           a Spring Boot keretrendszer sajátosságaival ismerkedtem meg, viszont másodlagos skillsetként igyekeztem ismereteket szerezni a CI/CD alapjaiból.
 
-          A gyakornoki időm leteltével fokozatosan beletanultam a Front-end fejlesztésbe is. Számos projekten dolgoztam, azonban főleg a pénzügyi alkalmazásaink fejlesztésében vettem részt.
-          Itt lehetőségem nyílt több alkalmazásból álló komplexebb rendszerek megismerésére, valamint a számlázási és  adatszolgáltatási folyamatok megismerésére.
+          A gyakornoki időm leteltével fokozatosan beletanultam a Frontend fejlesztésbe is. Számos projekten dolgoztam, azonban főleg a pénzügyi alkalmazásaink fejlesztésében vettem részt.
+          Itt lehetőségem nyílt több alkalmazásból álló komplexebb rendszerek, valamint a számlázási folyamatok megismerésére.
       - layout: left
         title: SZTE EHÖK
         sub_title: Web Developer
         caption: 2016 - 2017
         description: | # this will include new lines to allow paragraphs
-            Egy szakmai közösség tagjaként a SZTE Hallgatói önkormányzatok weboldalainak fejlesztésében vettem részt, ahol <mark>PHP</mark> és <mark>Laravel</mark> használatában szereztem ismereteket.
+            Egy szakmai közösség tagjaként a SZTE Hallgatói önkormányzatok weboldalainak fejlesztésében vettem részt, ahol ![PHP](https://img.shields.io/badge/-PHP-777BB4?logoColor=white&logo=php) és ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white) használatában szereztem ismereteket.
   - title: Tanulmányok
     layout: list
     content:
       - layout: top-right
         title: Szegedi Tudományegyetem
         sub_title: Programtervező informatikus BSc
-        caption: 2013 - 2019
+        caption: 2019
         #quote: >
         #  Short institution or course description (optional)
         #description: | # this will include new lines to allow paragraphs
@@ -160,9 +197,9 @@ content:
       > "Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni." <br/><br/>
       > /Flash Rosenberg/
 
-      Szeretek Tech cikkeket olvasni. Van néhány alkalmazás, amelynek rendszeresen elolvasom a changelogját, mert nagyon várom őket. Ha nem cikkeket olvasok, akkor főleg fantasy és YA regényeket.
-      Sok angol kifejezést használok a mindennapi beszédemben. Szeretek főzni. Sosem voltam örökmozgó, de szeretek jógázni és biciklizni.
-      Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok. Kávéfüggő vagyok. Szeretem a világos pörkölésű kávét, és az alternatív elkészítési módokat. Szabadidőmben néha videójátékokat nyösztetek, szigorúan konzolon.
+      Szeretek Tech cikkeket olvasni, illetve néhanapján egy-két kedvenc appom changelogját. 🤓 Ha nem cikkeket olvasok, akkor főleg fantasy és YA regényeket.
+      Sok angol kifejezést használok a mindennapi beszédemben. Szeretek főzni. 👨‍🍳 Sosem voltam örökmozgó, de szeretek jógázni és biciklizni. 
+      Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok. 🏞️ 🌲 Kávéfüggő vagyok. ☕️ Szeretem a világos pörkölésű kávét, és az alternatív elkészítési módokat. Szabadidőmben néha videójátékokat nyösztetek, szigorúan konzolon. 🎮
   - title: Gear
     layout: list
     content:
@@ -171,7 +208,7 @@ content:
         title: Kávé <i class="fas fa-coffee"></i>
         sub_title: Mivel főzök reggel
         description: |
-          * **Brewer:** Aeropress / Nanopresso / Aeropress with Prismo
+          * **Brewer:** Aeropress / Nanopresso / Prismo / Bialetti Moka Express
           * **Scale:** Timemore Black Mirror Basic
           * **Grinder:** 1Zpresso JX
           * **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
@@ -179,16 +216,16 @@ content:
         title: <i class="fas fa-microchip"></i> Hardverek
         sub_title: Mivel dolgozom utána
         description: |
-          * <i class="fas fa-desktop"></i> Mac mini 2018 (i3 3,6 GHz, 8GB) + Asus VZ249HE
-          * <i class="fas fa-headphones"></i> Sony WH-1000XM3
+          * <i class="fas fa-desktop"></i> Mac mini 2018 (i3 3,6 GHz, 8GB)
+          * <i class="fas fa-headphones"></i> Sony WH-1000XM3 / Apple AirPods 3
   - title: Kapcsolat
     layout: text
     content: |
-      Az oldal tetején látható szinte az összes elérhetőségem. Az emaileket naponta nézem, írj bátran!
-      Chatszolgáltatások tekintetében preferálom a titkosított szolgáltatásokat. Főleg <mark><i class="fab fa-telegram"> Telegram</i></mark>-ot használok, de elérhető vagyok Signal-on is.
+      Az oldal tetején megtalálható számos elérhetőségem. Az emaileket naponta nézem, írj bátran!
+      Üzenetküldők tekintetében preferálom a titkosított szolgáltatásokat, főleg ![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?logoColor=white&logo=telegram)-ot használok.
 # Footer
 footer_show_references: true
-references_title: 'Utolsó frissítés: 2023.03.01.'
+references_title: *last_update
 
 # Build settings
 #theme: modern-resume-theme
