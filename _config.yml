@@ -12,7 +12,7 @@ name: &author Tóth László
 title: Full-Stack Developer
 email: hello@tothlp.hu
 email_title: <i class="far fa-envelope"></i>
-phone: Szeged
+phone: Budapest
 phone_title: <i class="far fa-home"></i>
 #website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -41,6 +41,9 @@ additional_links:
 - title: Telegram
   icon: fab fa-telegram
   url: https://t.me/tothlp
+- title: Notes
+  icon: fas fa-sticky-note
+  url: https://tothlp.hu/garden
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -125,8 +128,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: center
-        title: Blog / Landing
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Landing
+        link: https://tothlp.hu
         #link_text: Link Text
         description: |
           Szerettem volna egy helyet, ahol elérhetőségekkel együtt össze van szedve pár infó rólam. Az oldal motorházteteje alatt a ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?logoColor=white&logo=jekyll) dübörög, és a ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-black?logo=githubpages&logoColor=white) szolgálja ki.
@@ -134,10 +137,31 @@ content:
       #   title: Blog / Landing
       #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
       #   link_text: Link Text
-      #   additional_links:
+        additional_links:
+          - title:  Github repo
+            icon: fab fa-github
+            url: https://github.com/tothlp/tothlp.github.io
       #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
       #       icon: fab fa-github
       #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   quote: >
+      #     Short overview of the project (optional)
+      #   description: | # this will include new lines to allow paragraphs
+      #     Description about the work on/with the project
+      - layout: left
+        title: Digital Garden
+        link: https://tothlp.hu/garden
+        # link_text: Link Text
+        description: |
+          Work in progress...
+      # - layout: left 
+      #   title: Blog / Landing
+      #   link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+      #   link_text: Link Text
+        additional_links:
+          - title:  Github repo
+            icon: fab fa-github
+            url: https://github.com/tothlp/garden
       #     - title:  Github page for project (eg. sproogen/modern-resume-theme)
       #       icon: fab fa-github
       #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
