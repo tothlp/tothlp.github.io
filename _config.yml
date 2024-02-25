@@ -135,6 +135,15 @@ content:
           - title:  Github repo
             icon: fab fa-github
             url: https://github.com/tothlp/dotfiles
+      - layout: center
+        title: <i class="far fa-id-card"></i> CV
+        description: |
+          Story time, mert az önéletrajzom itt nem teszem közzé. Ez számomra azért egy érdekes projekt, mert valamiért én mindig fontosnak tartottam, hogy a cv kód legyen, lehessen verziókezelni és látni, ahogy fejlődik. 
+          Ezen szemléletmód miatt természetesen a cv-m is egy repóban lakik, és Latex-ben van megírva, mivel számos nagyon király sablon létezik hozzá. Legutóbb az előző Macemen nem volt arra hely, hogy a teljes 
+          TeXLive telepítve legyen, ezért először is összeállítottam hozzá egy Github Codespace-t, aminek a segítségével bármikor percek alatt online tudok dolgozni a projekten az nélkül, hogy bármit telepíteni kellene a gépemre. 
+          A másik érdekesség, hogy a fordított artifacteket sosem szerettem repoban tartani, így ki kellett valamit találnom, hogy a fordítás után a pdf-eket valahova automatikusan eltároljam. Itt jött a képbe a Github Actions, 
+          aminek a segítségével léterhoztam egy olyan workflow-t, ami minden push után lefordítja a cv-t és feltölti a pdf-eket a repó release-ei közé. Tipikusan egy olyan helyzetről van szó, amikor ezt az egészet megoldhattam volna 
+          annyival, hogy Online, pl. az Overleafen írom az egészet. De abban mi lett volna a kihívás? Így legalább megismerkedtem közelebbről a Codespaces-zel és a Gitlab Pipelines után a Github Actions-zel is.
 
   - title: Tapasztalat
     layout: list
