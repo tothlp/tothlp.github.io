@@ -170,10 +170,6 @@ content:
         title: Szegedi Tudományegyetem
         sub_title: Programtervező informatikus BSc
         caption: 2019
-        #quote: >
-        #  Short institution or course description (optional)
-        #description: | # this will include new lines to allow paragraphs
-        #  Description of qualification
   - title: Egy kicsit több infó rólam
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -190,7 +186,6 @@ content:
     layout: list
     content:
       - layout: left
-        # border: weak #// or no value.
         title: Kávé <i class="fas fa-coffee"></i>
         sub_title: Mivel főzök reggel
         description: |
@@ -208,7 +203,6 @@ content:
           * <i class="fas fa-mouse"></i> Logitech MX Master 3
       - layout: right
         title: <i class="fas fa-code"></i> Szoftver
-        # sub_title: 
         description: |
           * <img height="18" width="18" src="https://cdn.simpleicons.org/intellijidea/white" /> IntelliJ IDEA
           * <img height="18" width="18" src="https://cdn.simpleicons.org/visualstudiocode/white" /> VS Code
