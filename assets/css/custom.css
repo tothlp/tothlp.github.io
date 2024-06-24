@@ -13,6 +13,12 @@
     gap: 16px; /* adjust as needed */
 }
 
+@media screen and (max-width: 1230px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 items per row on smaller screens */
+    }
+}
+
 .grid-item {
     background-color: #1f1f1f; /* adjust as needed */
     background-size: cover; 
@@ -48,7 +54,9 @@
 }
 
 
-.grid-item:hover .overlay {
+.grid-item:hover .overlay,
+.grid-item:focus .overlay,
+.grid-item:active .overlay {
     opacity: 1;
 }
 

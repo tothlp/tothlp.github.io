@@ -13,7 +13,7 @@ format: list
 
   <div class="grid-container">
 {% for game in year.items %}
-  <div class="grid-item" style="background-image: url('{{'/assets/img/covers/' | append: game.cover | relative_url }}');">
+  <div class="grid-item" style="background-image: url('{{'/assets/img/covers/' | append: game.cover | relative_url }}');" tabindex="0">
     <!-- <img src="{{'/assets/img/covers/' | append: game.cover | relative_url }}" alt="{{game.cover}}"> -->
       <div class="overlay">
           <p class="item-title">{{ game.title }} </p>
