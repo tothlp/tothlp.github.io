@@ -1,145 +1,38 @@
-# Landing page
+# tothlp.github.io
+Landing page
 
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Ftothlp.hu)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/tothlp/tothlp.github.io/master?label=last%20released)
 ![GitHub deployments](https://img.shields.io/github/deployments/tothlp/tothlp.github.io/github-pages?label=state)
 
-This repo hosts my Landing page. It uses [Jekyll](https://jekyllrb.com/) to create the static site, and Github Pages for hosting.
-The site uses the [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme) template, huge shoutout to its author, [James Grant](https://www.jameswgrant.co.uk).
+A Digital Garden  [(see here)](https://github.com/MaggieAppleton/digital-gardeners?tab=readme-ov-file) built with  [Jekyll Garden](https://github.com/Jekyll-Garden/jekyll-garden.github.io) theme.
 
-## Running
+Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault (or a subset of it) as a Jekyll static website. The theme is markdown and Obsidian setup friendly. You can use your own server or Github page to set up your SSG. Check out the demo.
 
-Install the dependencies: 
+## Credits & Thanks
+-  See [Credits page](https://jekyll-garden.github.io/credits)
 
-```bash
-bundle install
+## Additional resources
+
+- https://tomcritchlow.com/2019/02/17/building-digital-garden/
+- https://maggieappleton.com/garden-history
+- https://hiran.in/index.html
+- https://github.com/readme/guides/private-documentation
+
+## Contribution
+
+To set up your environment to develop this theme, run `bundle install` after cloning this repository in your local machine.
+
+Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. `_notes` contain all atomic notes. If you want to use this for blog, add posts inside `_posts` folder, following standard Jekyll frontamtter.
+
+### Hosting in a Docker Container
+For hosting on your local network, inside a docker container, install `docker` and `docker-compose` and run,
+```Terminal
+$ docker-compose up -d
 ```
+> **Note**:-
+> 
+> This container is built upon on alpine based ruby image. There's an official Jekyll image available in docker hub which only support `amd64` images. You can opt to use that if you are running the container on an 64bit PC. If you want to run this on an ARM based system like Raspberry Pi, this would be a better option.
+>
+> The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
 
-Run the server:
-
-```bash
-bundle exec jekyll serve
-```
-
-## Configuration options
-
-The soul of the site lies within [_config.yml](_config.yml). In the following, you can see the different options.
-
-### Site
-```yaml
-repository: tothlp/tothlp.github.io
-favicon: images/favicon.ico
-# Dark Mode (true/false/never)
-darkmode: true
-```
-### Content configuration version
-```yaml
-version: 2
-```
-### Last update
-```yaml
-last_update: &last_update #date
-```
-### Personal info
-```yaml
-name: &author 
-title: 
-email: 
-email_title: #title, or custom icon, eg.: <i class="far fa-envelope"></i>
-phone: # or other info, like location
-phone_title: #title, or custom icon, eg.: <i class="far fa-envelope"></i>
-website: 
-website_title:
-```
-### Social links
-```yaml
-twitter_username: 
-github_username:  
-#stackoverflow_username: ""
-#dribbble_username: 
-#facebook_username: 
-#flickr_username: 
-# instagram_username: 
-# linkedin_username: 
-#xbox_username: 
-#xing_username: 
-#pinterest_username: 
-#youtube_username: 
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: 
-```
-### Additional icon links
-```yaml
-additional_links: #custom links for the upper navigation
-- title: Telegram
-  icon: fab fa-telegram # Use fontawesome here
-  url: 
-```
-### Google Analytics and Tag Manager
-#### Using more than one of these may cause issues with reporting
-```yaml
-# gtm: ""
-gtag: ""
-# google_analytics: ""
-```
-### About Section
-```yaml
-about_title: Rólam
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-content:
-  - title: #Feel free to include html and icons: <small><i class="fas fa-tools"></i> </small>  Skills   <small><i class="fas fa-feather"></i></small>
-    layout: # text or list
-    content: |
-
-  - title: Projektek # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: # center (not working) / left / right
-      # border: weak #// or no value.
-        title: 
-        link: 
-        #link_text: Link Text
-        sub_title: 
-        caption:
-        description: |
-
-        quote: >  
-            > 
-        additional_links: 
-          - title:  Github repo
-            icon: fab fa-github
-            url: https://github.com
-        
-```
-### Footer
-```yaml
-footer_show_references: true
-references_title: *last_update
-```
-### Build settings
-```yaml
-#theme: modern-resume-theme
-remote_theme: sproogen/modern-resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  "tothlp.github.io.code-workspace"
-  ]
-```

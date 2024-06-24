@@ -1,0 +1,250 @@
+- title: "Hellblade: Senua's Sacrifice"
+  year: 2019
+  platform: XBOX
+  cover: hellblade.jpg
+
+- title: Ori and the Blind Forest
+  year: 2019
+  platform: XBOX
+  cover: ori-and-the-blind-forest.jpg
+
+- title: Felix the Reaper
+  year: 2019
+  platform: XBOX
+  cover: felix-the-reaper.png
+
+- title: Unravel
+  year: 2019
+  platform: XBOX
+  cover: unravel.jpg
+
+- title: Darksiders III
+  year: 2019
+  platform: XBOX
+  cover: darksiders-3.jpg
+
+- title: Tomb Raider
+  year: 2019
+  platform: XBOX
+  cover: tomb-raider.jpg
+
+- title: Rise of the Tomb Raider
+  year: 2019
+  platform: XBOX
+  cover: rise-of-the-tomb-raider.jpg
+
+- title: Unravel 2
+  year: 2019
+  platform: XBOX
+  cover: unravel-2.jpg
+
+- title: BattleBlock Theater
+  year: 2019
+  platform: XBOX
+  cover: battleblock-theater.jpg
+
+- title: "Star Wars - Jedi: Fallen Order"
+  year: 2020
+  platform: XBOX
+  cover: jedi-fallen-order.jpg
+
+- title: Ori and the Will of the Wisps
+  year: 2020
+  platform: XBOX
+  cover: ori-and-the-will-of-the-wisps.jpg
+
+- title: What Remains of Edith Finch
+  year: 2020
+  platform: XBOX
+  cover: what-remains-of-edith-finch.png
+
+- title: Horizon Zero Dawn
+  year: 2021
+  platform: PS
+  cover: horizon-zero-dawn.jpg
+
+- title: Kena - Bridge of Spirits
+  year: 2021
+  platform: PS
+  cover: kena.jpg
+  unfinished: true
+
+- title: It takes two
+  year: 2021
+  platform: XBOX
+  cover: it-takes-two.jpg
+
+- title: Astro's Playroom
+  year: 2021
+  platform: PS
+  cover: astros-playroom.jpg
+
+- title: Shadow of the Tomb Raider
+  year: 2021
+  platform: XBOX
+  cover: shadow-of-the-tomb-raider.png
+
+- title: Immortals Fenyx Rising
+  year: 2021
+  platform: XBOX
+  cover: immortals-fenyx-rising.jpg
+
+- title: God of War
+  year: 2021
+  platform: PS
+  cover: god-of-war.jpg
+
+- title: "God of War Ragnarök"
+  year: 2022
+  platform: PS
+  cover: ragnarok.jpg
+
+- title: Cult of the Lamb
+  year: 2022
+  platform: PS
+  cover: cult-of-the-lamb.jpg
+
+- title: Assasin's Creed Valhalla
+  year: 2022
+  platform: PS
+  cover: ac-valhalla.jpg
+  unfinished: true
+
+- title: Horizon Forbidden West
+  year: 2022
+  platform: PS
+  cover: horizon-forbidden-west.jpg
+
+- title: "Star Wars - Jedi Survivor"
+  year: 2023
+  platform: PS
+  cover: jedi-survivor.jpg
+
+- title: The Last Campfire
+  year: 2023
+  platform: APPLE
+  cover: the-last-campfire.jpg
+
+- title: Hogwarts Legacy
+  year: 2023
+  platform: PS
+  cover: hogwarts-legacy.jpg
+
+- title: Uncharted 4 - A Thief's End
+  year: 2023
+  platform: PS
+  cover: uncharted-4.jpg
+
+- title: Stela
+  year: 2023
+  platform: APPLE
+  cover: stela.jpg
+
+- title: Path of Giants
+  year: 2023
+  platform: APPLE
+  cover: path-of-giants.jpg
+
+- title: Tunic
+  year: 2023
+  platform: PS
+  cover: tunic.jpg
+  unfinished: true
+
+- title: Gris
+  year: 2023
+  platform: PS
+  cover: gris.png
+
+- title: "Limbo"
+  year: 2023
+  platform: PS
+  cover: limbo.jpg
+
+- title: "Inside"
+  year: 2023
+  platform: PS
+  cover: inside.jpg
+
+- title: Sackboy - A Big Adventure
+  year: 2023
+  platform: PS
+  cover: sackboy.jpg
+  unfinished: true
+
+
+- title: Röki
+  year: 2023
+  platform: PS
+  cover: röki.jpg
+
+- title: Oddmar
+  year: 2024
+  platform: APPLE
+  cover: oddmar.jpg
+
+- title: Neighbours back From Hell
+  year: 2024
+  platform: APPLE
+  cover: neighbours-back-from-hell.jpg
+
+- title: Lara Croft GO
+  year: 2024
+  platform: APPLE
+  cover: lara-croft-go.png
+
+- title: "The Talos Principle II"
+  year: 2024
+  platform: PS
+  cover: the-talos-principle-2.jpg
+
+- title: "The Gardens Between"
+  year: 2024
+  platform: PS
+  cover: the-gardens-between.jpg
+
+- title: "Silt"
+  year: 2024
+  platform: PS
+  cover: silt.jpg
+
+- title: "The Last of Us"
+  year: 2024
+  platform: PS
+  cover: the-last-of-us.jpg
+
+- title: "The Last of Us Part I"
+  year: 2024
+  platform: PS
+  cover: the-last-of-us-2.jpg
+
+- title: "Carrion"
+  year: 2024
+  platform: PS
+  cover: carrion.jpg
+
+- title: "Planet of Lana"
+  year: 2024
+  platform: PS
+  cover: planet-of-lana.jpg
+
+- title: "Control"
+  year: 2024
+  platform: PS
+  cover: control.jpg
+
+- title: "Senua's Saga: Hellblade II"
+  year: 2024
+  platform: PC
+  cover: hellblade-2.jpg
+
+- title: The Quarry
+  year: 2024
+  platform: PS
+  cover: the-quarry.jpg
+
+- title: "Tales of Kenzera™: ZAU"
+  year: 2024
+  platform: PS
+  cover: zau.jpg
+  unfinished: true

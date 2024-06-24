@@ -1,0 +1,214 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta content="Digital Garden" property="og:site_name" />
+    <meta
+        content="A digital garden for my notes, thoughts, experiences and ideas."
+        property="og:description">
+    <meta content="{{ site.url }}" property="article:author">
+    <meta property="og:image" content="../assets/img/OGImg.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    {%- if page.title -%}
+    <meta content="{{ page.title }}" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {%- else -%}
+    <meta content="website" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {%- endif -%}
+
+    <title>{{page.title}} - {{site.heading}}</title>
+    <!-- <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script> -->
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
+    <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
+    <script src="https://kit.fontawesome.com/e1ff1f6e50.js" crossorigin="anonymous"></script>
+
+    <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+</head>
+
+<body>
+    <main>
+    {%- include Nav.html -%}
+    <section class="section">
+        <div class="columns is-centered">
+
+            <!-- Homepage Layout-->
+            {%- if page.permalink == "/" -%}
+            <div class="column is-8-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                    {%- if site.preferences.homepage.enabled -%}
+                            <!--- Show Homepage -->
+                            {%- include Homepage.html -%}
+                    {%- else -%}
+                            <!--- Show Feed Part -->
+                <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                            <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
+                            <div class="jumbo">{{page.title}}</div>
+                            {%- include Content.html -%}
+                            {%- include Feed.html -%}
+                </div>
+                    {%- endif -%}
+            </div>
+            {%- endif -%}
+
+            <!--- Notes Feed Layout-->
+            {%- if page.feedformat -%}
+            <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
+                    <div class="jumbo">{{page.title}}</div>
+                    {%- include Content.html -%}
+                    {%- include Feed.html -%}
+            {%- endif -%}
+
+            <!--- Notes Layout-->
+            {%- if page.content-type == "notes" -%}
+            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                    <div class="note-page-section">
+                        <div>
+                            {%- if site.preferences.homepage.enabled -%}
+                            <a onclick="window.history.back();">
+                            {%- else -%}
+                            <a onclick="window.location.assign('/');">
+                            {%- endif -%}
+                                    <h5 class="meta-title">← BACK</h5>
+                            </a>
+                        </div>
+                    <!--- List type Note Layout-->
+                    {%- if page.format == "list" -%}
+                    <style>
+                        li {border-bottom: 1px solid var(--color-border-light); list-style: none; padding: 0.4rem 0 0.4rem 0;}
+                        .content ul { padding-left: 0px;}
+                        h3 {padding-top: 1rem; padding-bottom: 0rem;}
+                    </style>                    
+                    {%- endif -%}
+
+                    {%- if page.format == "log" -%}
+                    <!-- Layout 4 Logs-->   
+                    {% comment %}
+                        # The following snippet checks if the cover is a URL or a local file, making it possible to use local and remote images as covers.
+                        # Local images must use relative url, while remote images must use the full URL.
+                    {% endcomment %}  
+                        {% if page.cover contains "http" %}
+                            {% assign cover = page.cover %}
+                        {% else %}
+                            {% capture cover %}
+                            {{'/assets/img/'| append: page.cover | relative_url }}
+                            {% endcapture %}
+                        {% endif %}
+
+                        <div class="cover" style="background-image: url('{{ cover | strip }}');"></div>      
+                        <h1 style="padding-bottom: 0px">
+                        {{ page.title }}
+                        </h1>
+                        <div class="meta-values" style="padding-bottom: var(--padding-broad);">
+                            {% for item in page.meta %}
+                                {%- if page.display-full-meta -%}
+                                    <b>{{ item.first }}:</b> {{ item.last }}
+                                {%- else -%}
+                                    {{ item.last }}
+                                {%- endif -%}
+                                {% if forloop.last %}{% else %}  •  {% endif %}
+                            {% endfor %}
+                            {%- if page.link -%}
+                            • <a href = "{{ page.link }}"> Link </a>
+                            {%- endif -%}
+                        </div>
+
+                        {%- include Content.html -%}   
+                        {%- include Backlinks.html -%}    
+                    {%- else -%}
+
+
+                    <div class="title-container">
+                        <div class="title-left">
+                            <h1>{{ page.title }}</h1>
+                        </div>
+                        <div class="title-right">
+                            <p>{{ page.description }}</p>
+                        </div>
+                    </div>
+                    {%- include Content.html -%}
+                    {%- include Backlinks.html -%}
+                    </div>
+                    {%- endif -%}
+            </div>
+            {%- endif -%}
+
+
+            <!--- Post Feed Layout-->
+            {%- if page.permalink == "/posts" -%}
+            <div class="column is-6-widescreen  is-8-desktop is-8-tablet is-12-mobile">
+                <h5 class="meta-title"><a href="{{ site.baseurl }}/">← Home</a></h5>
+                <div class="jumbo">{{page.title}}</div>
+                    {%- include Content.html -%}
+                    {% for post in site.posts %}
+                        <div class="list-feed"> 
+                        <a href="{{ site.baseurl }}{{post.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
+                            <div class="writinglist-title">{{post.title }}</div>
+                        </a>
+                        </div>
+                    {%- endfor -%}
+            </div> 
+
+            <ul>
+                
+            {%- endif -%}
+
+             <!--- Post Layout-->
+             {%- if page.content-type == "post"  -%}
+             <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                     <div class="note-page-section">
+                         <div>
+                             {%- if site.preferences.homepage.enabled -%}
+                             <a onclick="window.history.back();">
+                             {%- else -%}
+                             <a onclick="window.location.assign('/');">
+                             {%- endif -%}
+                                     <h5 class="meta-title">← BACK</h5>
+                             </a>
+                         </div>
+                     <h1>{{page.title}}</h1>
+                     {%- include Content.html -%}
+                     {%- include Backlinks.html -%}
+                     </div>
+             </div>
+             {%- endif -%}
+
+            <!--- Static Page Layout-->
+            {%- if page.content-type == "static" -%}
+            <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
+                <div class="title-container">
+                    <div class="title-left">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                    <div class="title-right">
+                        <p>{{ page.description }}</p>
+                    </div>
+                </div>                   
+                        {%- include Content.html -%}
+                </div>
+            {%- endif -%}
+        </div>
+    </section>   
+    {%- include Footer.html -%}             
+</main>
+</body>
+</html>

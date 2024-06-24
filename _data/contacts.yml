@@ -1,0 +1,12 @@
+- name: GitHub
+  icon: fa-brands fa-github
+  handle:  tothlp
+- name: Twitter
+  icon: fa-brands fa-twitter
+  handle: tothlp
+- name: Telegram
+  icon: fa-brands fa-telegram
+  handle: https://t.me/tothlp
+- name: Email
+  icon: fa-solid fa-envelope
+  handle: hello@tothlp.hu

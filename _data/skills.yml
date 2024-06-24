@@ -1,0 +1,46 @@
+- category: Languages, Frameworks
+  items:
+  - name: Kotlin
+    icon: https://img.shields.io/badge/-Kotlin-444?logo=kotlin&style=for-the-badge
+  - name: Java
+    icon: https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black&style=for-the-badge
+  - name: SpringBoot
+    icon: https://img.shields.io/badge/-SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white
+  - name: Angular
+    icon: https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular
+  - name: Jekyll
+    icon: https://img.shields.io/badge/-Jekyll-CC0000?style=for-the-badge&logoColor=white&logo=jekyll
+
+- category: Databases
+  items:
+  - name: MySQL
+    icon: https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+  - name: Oracle
+    icon: https://img.shields.io/badge/-Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white
+
+- category: Version control
+  items:
+  - name: Git
+    icon: https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white
+  - name: GitHub
+    icon: https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white
+  - name: GitLab
+    icon: https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
+
+- category: CI/CD
+  items:
+  - name: GitLab Pipelines
+    icon: https://img.shields.io/badge/-GitLab%20Pipelines-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
+  - name: Jenkins
+    icon: https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logoColor=white&logo=jenkins
+
+- category: 'Et cetera'
+  items:
+  - name: Docker
+    icon: https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logoColor=white&logo=docker
+  - name: Latex
+    icon: https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex
+  - name: Markdown
+    icon: https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown
+  - name: GitHub Pages
+    icon: https://img.shields.io/badge/-GitHub%20Pages-black?style=for-the-badge&logo=githubpages&logoColor=white

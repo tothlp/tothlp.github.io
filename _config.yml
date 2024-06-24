@@ -1,245 +1,126 @@
-# Site
-repository: tothlp/tothlp.github.io
-favicon: images/favicon.ico
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-# Content configuration version
-version: 2
+# URL is the base hostname with protocol for your site, eg http://example.com
+url: "https://tothlp.hu" # the base hostname & protocol for your site, e.g. http://example.com
 
-last_update: &last_update 2024. 02. 24.
+# If you want to install this jekyll in a subpath (eg /digitalgarden) set it here. 
+# Else keep it Empty (DON'T PUT /; Keep it empty)
+baseurl: ""
 
-# Personal info
-name: &author Tóth László
-title: Full-Stack Developer
-email: hello@tothlp.hu
-email_title: <i class="far fa-envelope"></i>
-phone: Budapest, HU
-phone_title: <i class="fas fa-map-marker-alt"></i>
-website: 
-website_title:
-# Dark Mode (true/false/never)
-darkmode: true
+# Website Header, Description, Footer year and text. 
+# If you are deleting this, make sure you remove it from HTML files too 
+heading:  Tóth László # Change this 
+content: "A digital garden for my notes, thoughts, experiences and ideas."
+copyright:  
+  year: © 2024
+  msg: Tóth László
+version: 1.3
 
-# Social links
-twitter_username: tothlp
-github_username:  tothlp
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-# instagram_username: tothlp
-# linkedin_username: tothlp
-#xbox_username: tothlp
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
+# Set title and content for private & broken link tooltop
+privatelinks:
+  title: Privát vagy törött linkek
+  msg: Az oldal amit keresel, vagy privát, vagy nem létezik! :(
 
-# Additional icon links
-additional_links:
-- title: Telegram
-  icon: fab fa-telegram
-  url: https://t.me/tothlp
-- title: Notes / Second Brain
-  icon: fas fa-brain
-  url: https://tothlp.hu/garden
+# Theme level preferences
+# To enable set "enabled : true" else, use "enabled:false"
+preferences:
+  search:
+    enabled: true
+  wiki_style_link: 
+    enabled: true
+  pagepreview: 
+    enabled: true
+  backlinks:
+    enabled: true
+# To enable a homepage, change the value to true and add content to _includes/Homepage.html
+# If enable : false, notes feed will be as homepage. 
+  homepage: 
+    enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-gtag: "G-WHNXZE6LBQ"
-# google_analytics: "UA-00000000-0"
+about_profile_image: /assets/img/profile.jpg
 
-# About Section
-about_title: Rólam
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Motivált és sokoldalú fejlesztő vagyok, 6 év tapasztalattal Kotlin, SpringBoot és Java területén. Igyekszem felhasználó-központú, könnyen használható alkalmazásokat fejleszteni. 
-  Elkötelezett vagyok a szakmai fejlődés iránt és szeretek új technológiákat megismerni, amelyeket a munkám során hasznosítani tudok, valamint meg tudok osztani másokkal.
-
-content:
-  - title: <small><i class="fas fa-tools"></i> </small>  Skills   <small><i class="fas fa-feather"></i></small>
-    layout: text
-    content: |
-      ## Languages, Frameworks
-
-      ![Kotlin](https://img.shields.io/badge/-Kotlin-444?logo=kotlin&style=for-the-badge)
-      ![Java](https://img.shields.io/badge/-Java-FFFFFF?logo=openjdk&logoColor=black&style=for-the-badge) 
-      ![SpringBoot](https://img.shields.io/badge/-SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) 
-      ![Angular](https://img.shields.io/badge/-Angular-DD0031?style=for-the-badge&logo=angular) 
-      ![Jekyll](https://img.shields.io/badge/-Jekyll-CC0000?style=for-the-badge&logoColor=white&logo=jekyll) 
-
-      ## Databases
-
-      ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) 
-      ![Oracle](https://img.shields.io/badge/-Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
-
-      ## Version control
-
-      ![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-      ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-      ![GitLab](https://img.shields.io/badge/-GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-
-      
-      ## CI/CD
-
-      ![GitLab Pipelines](https://img.shields.io/badge/-GitLab%20Pipelines-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-      ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=for-the-badge&logoColor=white&logo=jenkins)
-
-      ## Et cetera
-      ![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-black?style=for-the-badge&logo=githubpages&logoColor=white)
-      ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logoColor=white&logo=docker)
-      ![Latex](https://img.shields.io/badge/-Latex-008080?style=for-the-badge&logo=latex) 
-      ![Markdown](https://img.shields.io/badge/-Markdown-444?style=for-the-badge&logo=markdown) 
-
-
-  - title: Projektek # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: center
-        title: <i class="far fa-campground"></i> Landing
-        link: https://tothlp.hu
-        #link_text: Link Text
-        description: |
-          Ez az oldal, amit éppen nézel, egy Jekyll alapú statikus weboldal. Azért jött létre, mert szerettem volna az interneten egy zugot, ahol össze vannak szedve az elérhetőségeim és néhány információ rólam. 
-          Több technikai infó a repóban található.
-        additional_links:
-          - title:  Github repo
-            icon: fab fa-github
-            url: https://github.com/tothlp/tothlp.github.io
-      - layout: center
-        title: <i class="far fa-brain"></i> Digital Garden
-        link: https://tothlp.hu/garden
-        # link_text: Link Text
-        description: |
-          Ez egy elég új kezdeményezés, amit [Monica Powell](https://github.com/readme/guides/private-documentation) cikke által inspirálva kezdtem el. 
-          Egyfajta második agyam, ahol az "új tanulásaimat" és gondolataimat dokumentálom.
-        additional_links:
-          - title:  Github repo
-            icon: fab fa-github
-            url: https://github.com/tothlp/garden
-      - layout: center
-        title: <i class="far fa-network-wired"></i> SSHanyi
-        description: |
-          Egy egyszerű kisalkalmazás, ami lehetővé teszi, hogy a felhasználó az SSH konfigurációit kezelje.
-        additional_links:
-          - title:  Github repo
-            icon: fab fa-github
-            url: https://github.com/tothlp/sshanyi
-      - layout: center
-        title: <i class="far fa-cogs"></i> dotfiles
-        description: |
-          Ez a projekt a klasszikus értelemben nem tartalmaz forráskódot, de nagyon büszke vagyok rá. A dotfiles repómban találhatóak a konfigurációim, 
-          amiket a [Chezmoi](https://www.chezmoi.io/) egy esetleges újratelepítésnél automatikusan felmásol, a szükséges alkalmazások telepítésével együtt.
-        additional_links:
-          - title:  Github repo
-            icon: fab fa-github
-            url: https://github.com/tothlp/dotfiles
-      - layout: center
-        title: <i class="far fa-id-card"></i> CV
-        description: |
-          Story time, mert az önéletrajzom itt nem teszem közzé. Ez számomra azért egy érdekes projekt, mert valamiért én mindig fontosnak tartottam, hogy a cv kód legyen, lehessen verziókezelni és látni, ahogy fejlődik. 
-          Ezen szemléletmód miatt természetesen a cv-m is egy repóban lakik, és Latex-ben van megírva, mivel számos nagyon király sablon létezik hozzá. Legutóbb az előző Macemen nem volt arra hely, hogy a teljes 
-          TeXLive telepítve legyen, ezért először is összeállítottam hozzá egy Github Codespace-t, aminek a segítségével bármikor percek alatt online tudok dolgozni a projekten az nélkül, hogy bármit telepíteni kellene a gépemre. 
-          A másik érdekesség, hogy a fordított artifacteket sosem szerettem repoban tartani, így ki kellett valamit találnom, hogy a fordítás után a pdf-eket valahova automatikusan eltároljam. Itt jött a képbe a Github Actions, 
-          aminek a segítségével léterhoztam egy olyan workflow-t, ami minden push után lefordítja a cv-t és feltölti a pdf-eket a repó release-ei közé. Tipikusan egy olyan helyzetről van szó, amikor ezt az egészet megoldhattam volna 
-          annyival, hogy Online, pl. az Overleafen írom az egészet. De abban mi lett volna a kihívás? Így legalább megismerkedtem közelebbről a Codespaces-zel és a Gitlab Pipelines után a Github Actions-zel is.
-
-  - title: Tapasztalat
-    layout: list
-    content:
-      - layout: right
-        title: Régens Zrt.
-        sub_title: Full-Stack Developer
-        caption: 2017 július - jelenleg
-        link: www.regens.com
-        description: | # this will include new lines to allow paragraphs
-          * Többkomponensű webalkalmazások fejlesztése
-          * Külső rendszerek integrálásához REST API szolgáltatások tervezése és implementálása
-          * Release folyamatok automatizálása és karbantartása
-      - layout: right
-        title: SZTE EHÖK
-        sub_title: Web Developer
-        caption: 2016 - 2017
-        description: | # this will include new lines to allow paragraphs
-          Részvétel a hallgatói önkormányzatok weboldalainak újraírásában.
-  - title: Tanulmányok
-    layout: list
-    content:
-      - layout: top-right
-        title: Szegedi Tudományegyetem
-        sub_title: Programtervező informatikus BSc
-        caption: 2019
-  - title: Egy kicsit több infó rólam
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      > "Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni." <br/><br/>
-      > /Flash Rosenberg/
-
-      Szeretek Tech cikkeket olvasni, illetve néhány changelogot. 🤓
-      Sok angol kifejezést használok a mindennapi beszédemben és utálom a kényszerfordított szakmai kifejezéseket.
-      Szeretek főzni. 👨‍🍳 
-      Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok, de a hétköznapokban a jóga is segít. 🏞️ 🌲
-      Kávéfüggő vagyok. ☕️ Szeretem a világos pörkölésű kávét és az alternatív elkészítési módokat. 
-      Szabadidőmben néha videójátékokat nyösztetek, szigorúan konzolon. 🎮
-  - title: Gear
-    layout: list
-    content:
-      - layout: left
-        title: Kávé <i class="fas fa-coffee"></i>
-        sub_title: Mivel főzök reggel
-        description: |
-          * **Brewer:** Aeropress / Nanopresso / Prismo / Bialetti Moka Express
-          * **Scale:** Timemore Black Mirror Basic
-          * **Grinder:** 1Zpresso JX
-          * **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
-      - layout: right
-        title: <i class="fas fa-microchip"></i> Hardver
-        sub_title: Mivel dolgozom utána
-        description: |
-          * <i class="fas fa-desktop"></i> Mac mini 2023 (M2 / 16GB / 512GB)
-          * <i class="fas fa-headphones"></i> Apple AirPods Pro 2 (for peace of mind)
-          * <i class="fas fa-keyboard"></i> Logitech MX Mechanical Mini
-          * <i class="fas fa-mouse"></i> Logitech MX Master 3
-      - layout: right
-        title: <i class="fas fa-code"></i> Szoftver
-        description: |
-          * <img height="18" width="18" src="https://cdn.simpleicons.org/intellijidea/white" /> IntelliJ IDEA
-          * <img height="18" width="18" src="https://cdn.simpleicons.org/visualstudiocode/white" /> VS Code
-          * <img height="18" width="18" src="https://cdn.simpleicons.org/windowsterminal/white" /> Windows Terminal
-          * <img height="18" width="18" src="https://cdn.simpleicons.org/warp/white" /> Warp
-          * <img height="18" width="18" src="https://cdn.simpleicons.org/gitkraken/white" /> GitKraken
-          
-          <i class="fas fa-info-circle"></i> Egy halom általam használt vagy csak egyszerűen hasznos appot / libet találhatsz még a Github profilomon: <a href="https://github.com/tothlp?tab=stars" alt="Github Stars">https://github.com/tothlp?tab=stars</a>
-  - title: Kapcsolat
-    layout: text
-    content: |
-      Lásd az oldal tetején. <a href="#">☝️</a>
-# Footer
-footer_show_references: true
-references_title: *last_update
+encoding: utf-8
 
 # Build settings
-#theme: modern-resume-theme
-remote_theme: sproogen/modern-resume-theme
+theme: null
+plugins:
+  - jekyll-feed 
+  - jekyll-sitemap 
+  - jekyll-tidy
+  - jekyll-last-modified-at
+    
+## Enable Collections
+## Suggested collects are "notes" "lists" and "blog"
+collections:
+    notes:
+      output: true
+      permalink: /note/:title
+    lists:
+      output: true
+      permalink: /list/:title
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: katex
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: rouge
+  
 sass:
-  sass_dir: _sass
   style: compressed
 
-plugins:
- - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: Post
+      content-type: notes
+      permalink: /note/:title
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  "tothlp.github.io.code-workspace"
-  ]
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - _notes/000 Inbox
+  - _notes/200 Private
+  - _notes/300 Templates
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+last-modified-at:
+  date-format: '%Y.%m.%d.'

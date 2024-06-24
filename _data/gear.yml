@@ -1,0 +1,24 @@
+hardware:
+  - name: Mac mini 2023 (M2 / 16GB / 512GB)
+    fa_icon: fas fa-desktop
+    simple_icon: 
+  - name: Apple AirPods Pro 2 (for peace of mind)
+    fa_icon: fas fa-headphones
+    simple_icon:
+  - name: Logitech MX Mechanical Mini
+    fa_icon: fas fa-keyboard
+    simple_icon:
+  - name: Logitech MX Master 3
+    fa_icon: fas fa-mouse
+    simple_icon:
+software:
+  - name: IntelliJ IDEA
+    simple_icon: intellijidea/white
+  - name: VS Code
+    simple_icon: visualstudiocode/white
+  - name: Windows Terminal
+    simple_icon: windowsterminal/white
+  - name: Warp
+    simple_icon: warp/white
+  - name: GitKraken
+    simple_icon: gitkraken/white

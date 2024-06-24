@@ -1,0 +1,21 @@
+work:
+- company: Régens Zrt.
+  role: Full-Stack Developer
+  period: 2017 július - jelenleg
+  link: https://www.regens.com
+  description:
+    - Többkomponensű webalkalmazások fejlesztése
+    - Külső rendszerek integrálásához REST API szolgáltatások tervezése és implementálása
+    - Release folyamatok automatizálása és karbantartása
+
+- company: SZTE EHÖK
+  role: Web Developer
+  period: 2016 - 2017
+  description:
+    - Részvétel a hallgatói önkormányzatok weboldalainak újraírásában.
+
+education:
+- institute: Szegedi Tudományegyetem
+  program: Programtervező informatikus BSc
+  period: 2019
+  description: # List
