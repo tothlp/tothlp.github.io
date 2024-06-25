@@ -1,0 +1,27 @@
+- title: Notes
+  icon: null
+  path: /notes
+- title: Experience
+  icon: null
+  path: /xp
+- title: Projects
+  icon: null
+  path: /projects
+- title: Games
+  icon: null
+  path: /games
+- title: Coffee
+  icon: fa-solid fa-mug-hot fa-xs
+  path: /coffee
+- title: Tools
+  icon: null
+  path: /tools
+- title: Collections
+  icon: null
+  path: /lists
+- title: Now
+  icon: null
+  path: /now
+- title: About
+  icon: null
+  path: /about

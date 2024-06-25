@@ -33,33 +33,14 @@
     
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a href="{{'/notes' | relative_url}}" class="navbar-item">
-          Notes
-        </a>
-        <a href="{{'/xp' | relative_url}}" class="navbar-item">
-          Experience
-        </a>
-        <a href="{{'/projects' | relative_url}}" class="navbar-item">
-          Projects
-        </a>
-        <a href="{{'/games' | relative_url}}" class="navbar-item">
-          Games
-        </a>
-        <a href="{{'/coffee' | relative_url}}" class="navbar-item">
-          <i class="icon-left fa-solid fa-mug-hot fa-xs"></i> Coffee
-        </a>
-        <a href="{{'/tools' | relative_url}}" class="navbar-item">
-          Tools
-        </a>
-        <a href="{{'/lists' | relative_url}}" class="navbar-item">
-          Collections
-        </a>
-        <a href="{{'/now' | relative_url}}" class="navbar-item">
-          Now
-        </a>
-        <a href="{{'/about' | relative_url}}" class="navbar-item">
-          About
-        </a>
+        {% for item in site.data.nav %}
+          <a href="{{ item.path | relative_url }}" class="navbar-item">
+            {% if item.icon %}
+            <i class="icon-left fa-xs {{item.icon}}"></i> 
+            {% endif %}
+          {{ item.title }}
+          </a>
+        {% endfor %}
       </div>
       <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
         <div class="navbar-item">
