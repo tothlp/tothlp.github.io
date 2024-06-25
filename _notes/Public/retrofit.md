@@ -4,7 +4,7 @@ feed: show
 date: 18-06-2024
 ---
 
-A [Retrofit](https://square.github.io/retrofit/) library segítségével annotációk segítségével tudunk HTTP kéréseket kezelni. Gyakorlatilag egy interface-t kell megírnunk, amiben definiáljuk a végpontokat, ahhoz hasonlóan, mintha a saját REST Controllerünket hoznánk létre. A Retrofit a háttérben (I guess reflection-nel) létrehozza belőle az implementációt.
+A [Retrofit](https://square.github.io/retrofit/) library használatakor annotációk segítségével tudunk HTTP kéréseket kezelni. Gyakorlatilag egy interface-t kell megírnunk, amiben definiáljuk a végpontokat, ahhoz hasonlóan, mintha a saját REST Controllerünket hoznánk létre. A Retrofit a háttérben (I guess reflection-nel) létrehozza belőle az implementációt.
 
 Előnyök:
 - Nem kell kézzel kliens kódot írni, az adott apikat sima metódusként tudjuk hívni
