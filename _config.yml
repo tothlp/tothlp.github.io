@@ -70,12 +70,11 @@ plugins:
 ## Enable Collections
 ## Suggested collects are "notes" "lists" and "blog"
 collections:
-    notes:
-      output: true
-      permalink: /note/:title
-    lists:
-      output: true
-      permalink: /list/:title
+  notes:
+    output: true
+  lists:
+    output: true
+    permalink: /list/:title
 
 markdown: kramdown
 
@@ -85,9 +84,11 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
+
   
 sass:
   style: compressed
+
 
 defaults:
   - scope:
@@ -96,7 +97,7 @@ defaults:
     values:
       layout: Post
       content-type: notes
-      permalink: /note/:title
+      permalink: /note/:slug
 
 
 # Exclude from processing.

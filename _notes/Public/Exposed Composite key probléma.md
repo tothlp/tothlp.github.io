@@ -2,7 +2,7 @@
 title: Exposed Composite key probléma
 feed: show
 date: 25-06-2024
-permalink: /exposed-composite-key-problema
+slug: exposed-composite-key-problema
 ---
 
 Bármikor lehetünk olyan szerencsétlenek, hogy egy olyan adatbázis táblával találkozunk, aminek nem egy, hanem több mezőből álló,  összetett (composite) elsődleges kulcsa van.
