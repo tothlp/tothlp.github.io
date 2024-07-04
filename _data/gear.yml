@@ -15,9 +15,9 @@ software:
   - name: IntelliJ IDEA
     simple_icon: intellijidea/white
   - name: VS Code
-    simple_icon: visualstudiocode/white
+    fa_icon: fas fa-code
   - name: Windows Terminal
-    simple_icon: windowsterminal/white
+    fa_icon: fas fa-terminal
   - name: Warp
     simple_icon: warp/white
   - name: GitKraken
