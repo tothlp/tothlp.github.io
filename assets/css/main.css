@@ -3935,7 +3935,9 @@ a.tag:hover {
   }
 
   .title-right p {
+    text-align: right;
     margin: 0px;
     font-size: var(--text-s);
     font-family: 'Newsreader';
+    white-space: pre-line;
   }
