@@ -146,13 +146,24 @@
     margin-top: 8px;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    padding-left: 16px;
+    min-width: 250px; 
+  }
+
 .profile-img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    display: block;
-    border-radius: 100px;
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: repeat, no-repeat;
