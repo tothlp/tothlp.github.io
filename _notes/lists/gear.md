@@ -1,7 +1,7 @@
 ---
 title: Tools
 format: list
-description: Általam  használt hardverek és szoftverek
+description: Milyen eszközöket használok?
 permalink: /tools
 ---
 

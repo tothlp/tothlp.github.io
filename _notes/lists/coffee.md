@@ -1,7 +1,10 @@
 ---
 title: Coffee
 format: list
-description: “Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni.” /Flash Rosenberg/
+description: | 
+  "Az ember nagy dolgokat vitt már végbe, de nem azért, mert annyira okos, hanem mert van keze, és tud kávét főzni."
+  
+  (Flash Rosenberg)
 permalink: /coffee
 ---
 

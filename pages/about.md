@@ -1,7 +1,7 @@
 ---
 title: About
 content-type: static
-description: 
+description: Némi háttérinfó rólam
 permalink: /about
 layout: Post
 ---

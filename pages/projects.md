@@ -1,7 +1,7 @@
 ---
 title: Projects
 content-type: static
-description: 
+description: Saját, munkán kívüli projektek
 permalink: /projects
 layout: Post
 ---
