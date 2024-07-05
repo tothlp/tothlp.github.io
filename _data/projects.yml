@@ -22,6 +22,14 @@
     - title:  Github repo
       icon: fab fa-github
       url: https://github.com/tothlp/sshanyi
+- title: Worklog
+  icon: fas fa-list-check
+  description: |
+    Egy Kotlin-Native kisalkalmazás, amiben naplózhatjuk, hogy éppen milyen feladatokon dolgozunk. Az alkalmazás a felhasználó által megadott fájlba menti a naplóbejegyzéseket. 
+  additional_links:
+    - title:  Github repo
+      icon: fab fa-github
+      url: https://github.com/tothlp/worklog
 - title: dotfiles
   icon: far fa-cogs
   description: |
