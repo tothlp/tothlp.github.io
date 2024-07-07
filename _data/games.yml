@@ -248,3 +248,14 @@
   platform: PS
   cover: zau.jpg
   unfinished: true
+
+- title: "FAR: Lone Sails"
+  year: 2024
+  platform: PS
+  cover: far-lone-sails.jpg
+
+- title: "FAR: Changing Tides"
+  year: 2024
+  platform: PS
+  cover: far-changing-tides.jpg
+  unfinished: true
