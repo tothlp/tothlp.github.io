@@ -237,6 +237,8 @@ main {
     color: var(--color-text-main) !important;
     margin: 0;
     font-size: var(--text-s) !important;
+    overflow-wrap: break-word;
+    
 }
 
 /* 06. Related Notes */
@@ -306,6 +308,8 @@ ul ul {
     display: block;
     padding: 1rem;
     border-bottom: 1px solid var(--color-border-light);
+    max-width: 100%;
+    overflow: auto;
 }
 
 .notelist-feed:hover {
