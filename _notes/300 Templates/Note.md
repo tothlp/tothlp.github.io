@@ -1,6 +1,6 @@
 ---
 title: Template
-feed: hide # show | hide
+feed: show # show | hide
 date: 20-12-2024 #dd-mm-yyyy
 ---
 
