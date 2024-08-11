@@ -258,3 +258,9 @@
   year: 2024
   platform: PS
   cover: far-changing-tides.jpg
+
+- title: Hades
+  year: 2024
+  platform: PS
+  cover: hades.jpg
+  unfinished: true
