@@ -24,3 +24,5 @@ class JdbcCallFactory(
 ```
 
 Ha ezt a jdbcCall-t használjuk fel, akkor nem lesz több metadata lekérés. Azonban azt figyelemben kell tartani, hogy ha így pl. rossz adattípust adunk meg, hiányzó paraméterünk van, stb. akkor nem az ORA-0xxx jellegű hibaüzenetek fognak visszajönni (ami esetleg a helyi Oracle mágus munkáját megkönnyítheti), hanem a java probál még értelmezhető üzenetet visszaadni, nyilván tök más leírással.
+
+2024-08-12: Igazából ki kellene próbálni, hogy osztályszinten csak simán példányosítunk 1 db SimpleJdbcCall-t, és azt használjuk. Elvileg a metadata lekérés csak egyszer fut le, és utána a SimpleJdbcCall már tudja, hogy milyen paramétereket vár az adott eljárás. Ezzel a megoldással nem kell külön factory-t létrehozni, és az Oracle üzenetek is rendben lesznek kezelve.
