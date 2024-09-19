@@ -213,7 +213,7 @@
   platform: PS
   cover: the-last-of-us.jpg
 
-- title: "The Last of Us Part I"
+- title: "The Last of Us Part II"
   year: 2024
   platform: PS
   cover: the-last-of-us-2.jpg
@@ -263,4 +263,9 @@
   year: 2024
   platform: PS
   cover: hades.jpg
+  
+- title: The Plucky Squire
+  year: 2024
+  platform: PS
+  cover: the-plucky-squire.jpg
   unfinished: true
