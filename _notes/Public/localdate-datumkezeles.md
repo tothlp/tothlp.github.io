@@ -13,6 +13,8 @@ type 'java.time.LocalDate' for property..`
 
 # Megoldás
 
+Először is szükség van pár dependency-re, pl. a LocalDate kezeléshez: [[Minimal JSON serialization setup]].
+
 A POST kéréseknél megoldható a probléma, ha a request-ben az adott paramétert annotáljuk a
 következővel:
 
