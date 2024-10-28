@@ -114,7 +114,16 @@
                             {% endcapture %}
                         {% endif %}
 
-                        <div class="cover" style="background-image: url('{{ cover | strip }}');"></div>      
+                        <div class="cover" style="background-image: url('{{ cover | strip }}');"></div>
+                        <div style="text-align: right; padding-bottom: 16px;">
+                            {%- if page.copyright -%}
+                                {%- if page.copyrightLink -%}
+                                    <small>Cover: <a href="{{ page.copyrightLink }}">{{ page.copyright }}</a></small>
+                                {%- else -%}
+                                    <small>Cover: {{ page.copyright }}</small>
+                                {%- endif -%}
+                            {%- endif -%}
+                        </div>
                         <h1 style="padding-bottom: 0px">
                         {{ page.title }}
                         </h1>
