@@ -1,7 +1,10 @@
 hardware:
   - name: Mac mini 2023 (M2 / 16GB / 512GB)
-    fa_icon: fas fa-desktop
+    fa_icon: fas fa-computer
     simple_icon: 
+  - name: LG 27UL850-W
+    fa_icon: fas fa-display
+    simple_icon:
   - name: Apple AirPods Pro 2 (for peace of mind)
     fa_icon: fas fa-headphones
     simple_icon:
@@ -21,4 +24,4 @@ software:
   - name: Warp
     simple_icon: warp/white
   - name: GitKraken
-    simple_icon: gitkraken/white
+    simple_icon: git/white
