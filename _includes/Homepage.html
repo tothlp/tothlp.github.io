@@ -16,6 +16,8 @@
                 {% assign url = item.handle | prepend: 'https://t.me/' %}
             {% when 'GitHub' %}
                 {% assign url = item.handle | prepend: 'https://github.com/' %}
+            {% when 'Unsplash' %}
+                {% assign url = item.handle | prepend: 'https://unsplash.com/@' %}
             {% endcase %}
             <a href="{{url}}" target="_blank" rel="noopener" title="{{item.name}}">
                 <i class="{{item.icon}}"></i>
