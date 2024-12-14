@@ -283,3 +283,9 @@
   year: 2024
   platform: PS
   cover: prince-of-persia-tlc.jpg
+
+- title: Lego Horizon Adventures
+  year: 2024
+  platform: PS
+  cover: lego-horizon-adventures.jpg
+  unfinished: true
