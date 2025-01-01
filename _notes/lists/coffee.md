@@ -11,11 +11,11 @@ permalink: /coffee
 ## Felszerelés
 
 * **Brewer:** 
-  * Aeropress
-  * Nanopresso
-  * Prismo
-  * Bialetti Moka Express
+  * Krups Essenza Mini (XN1108CP)
   * Hario Mizudashi
+  * Bialetti Moka Express
+  * Aeropress (+ Fellow Prismo, optional)
+  * Nanopresso
   * French Press
 * **Scale:** Timemore Black Mirror Basic
 * **Grinder:** 1Zpresso JX
