@@ -308,3 +308,9 @@
   year: 2024
   platform: APPLE
   cover: dead-cells.jpg
+
+- title: The Swapper
+  year: 2025
+  platform: APPLE
+  cover: the-swapper.png
+  unfinished: true
