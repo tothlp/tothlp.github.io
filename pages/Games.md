@@ -24,9 +24,10 @@ format: list
                 <p title="PC"><i class="fa-solid fa-desktop" alt="PC"></i></p>
               {% elsif game.platform == "XBOX" %}
                 <p title="Xbox"><i class="fa-brands fa-xbox"></i></p>
-              {% endif %}
-              {% if game.platform == "APPLE" %}
+              {% elsif game.platform == "APPLE" %}
                 <p title="Apple (iOS, tvOS, stb.)"><i class="fa-brands fa-apple"></i></p>
+              {% elsif game.platform == "STEAM" %}
+                <p title="Steam Deck"><i class="fa-brands fa-steam"></i></p>
               {% endif %}
           </p>
           <p class="item-icon">

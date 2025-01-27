@@ -5,6 +5,10 @@ content-type: static
 permalink: /changelog
 ---
 
+#### v2.2 - 2025-01-27
+
+- Steam Deck kategória bevezetése a Games menüben
+
 #### v2.1 - 2024-07-16
 - Changelog átalakítása
 - Notes menüben szétcsúszás javítása, valamint egyéb stílus-javítások
