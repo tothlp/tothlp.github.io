@@ -313,3 +313,21 @@
   year: 2025
   platform: STEAM
   cover: the-swapper.png
+
+- title: The Alto Collection
+  year: 2025
+  platform: STEAM
+  cover: alto.jpg
+  unfinished: true
+
+- title: Somerville
+  year: 2025
+  platform: STEAM
+  cover: somerville.jpg
+
+- title: Alan Wake II
+  year: 2025
+  platform: PS
+  cover: alan-wake-2.jpg
+  unfinished: true
+
