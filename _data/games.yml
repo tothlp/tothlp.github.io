@@ -336,3 +336,9 @@
   platform: STEAM
   cover: hyper-light-drifter.jpg
   unfinished: true
+
+- title: Jusant
+  year: 2025
+  platform: STEAM
+  cover: jusant.png
+  unfinished: true
