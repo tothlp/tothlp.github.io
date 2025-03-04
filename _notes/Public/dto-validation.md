@@ -122,3 +122,7 @@ class TestService(private val validator: Validator) {
 
 **2024.06.17:**
 Bővebb infók: [https://jakarta.ee/learn/docs/jakartaee-tutorial/current/beanvalidation/bean-validation/bean-validation.html](https://jakarta.ee/learn/docs/jakartaee-tutorial/current/beanvalidation/bean-validation/bean-validation.html)
+
+**2025.03.04:**
+
+Lehet service layerben is annotálni, ilyenkor ugyanúgy a `@Valid` annotációt raktjuk a dto-ra, viszont a service-t (vagy egyéb class) annotálni kell `@Validated` annotációval. A controller validációhoz képest itt `ConstraintViolationException`-t fogunk kapni.
