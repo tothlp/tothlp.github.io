@@ -341,4 +341,8 @@
   year: 2025
   platform: STEAM
   cover: jusant.png
-  unfinished: true
+
+- title: Cocoon
+  year: 2025
+  platform: STEAM
+  cover: cocoon.jpg
