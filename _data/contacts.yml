@@ -1,9 +1,9 @@
 - name: GitHub
   icon: fa-brands fa-github
   handle:  tothlp
-- name: Twitter
-  icon: fa-brands fa-twitter
-  handle: tothlp
+- name: Bluesky
+  icon: fa-brands fa-bluesky
+  handle: tothlp.hu
 - name: Unsplash
   icon: fa-brands fa-unsplash
   handle: tothlp

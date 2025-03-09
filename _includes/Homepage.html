@@ -18,6 +18,8 @@
                 {% assign url = item.handle | prepend: 'https://github.com/' %}
             {% when 'Unsplash' %}
                 {% assign url = item.handle | prepend: 'https://unsplash.com/@' %}
+            {% when 'Bluesky' %}
+                {% assign url = item.handle | prepend: 'https://bsky.app/profile/' %}
             {% endcase %}
             <a href="{{url}}" target="_blank" rel="noopener" title="{{item.name}}">
                 <i class="{{item.icon}}"></i>
