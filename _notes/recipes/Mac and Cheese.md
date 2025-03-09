@@ -10,7 +10,7 @@ meta:
   adag: 4 személy
 ---
 
-> A pankós kéret ötletéért köszi Mefinek: [https://mefi.be/muti/7597/a-tokeletes-maccheese-receptje/](https://mefi.be/muti/7597/a-tokeletes-maccheese-receptje/)
+> A pankós kéreg ötletéért köszi Mefinek: [https://mefi.be/muti/7597/a-tokeletes-maccheese-receptje/](https://mefi.be/muti/7597/a-tokeletes-maccheese-receptje/)
 
 ### Hozzávalók
 
