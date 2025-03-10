@@ -1,18 +1,15 @@
 - title: Notes
   icon: null
   path: /notes
-- title: Experience
+- title: About
   icon: null
-  path: /xp
+  path: /about
 - title: Projects
   icon: null
   path: /projects
 - title: Games
   icon: null
   path: /games
-- title: Coffee
-  icon: fa-solid fa-mug-hot fa-xs
-  path: /coffee
 - title: Uses
   icon: null
   path: /uses
@@ -22,6 +19,3 @@
 - title: Now
   icon: null
   path: /now
-- title: About
-  icon: null
-  path: /about
