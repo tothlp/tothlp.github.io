@@ -1,7 +1,7 @@
 hardware:
   - name: Mac mini 2023 (M2 / 16GB / 512GB)
     fa_icon: fas fa-computer
-    simple_icon: 
+    simple_icon:
   - name: LG 27UL850-W
     fa_icon: fas fa-display
     simple_icon:
@@ -14,14 +14,12 @@ hardware:
   - name: Logitech MX Master 3
     fa_icon: fas fa-mouse
     simple_icon:
+  - name: Ikea LAGERGÅNG
+    fa_icon: fa-regular fa-lightbulb
 software:
   - name: IntelliJ IDEA
     simple_icon: intellijidea/white
   - name: VS Code
     fa_icon: fas fa-code
-  - name: Windows Terminal
-    fa_icon: fas fa-terminal
   - name: Warp
     simple_icon: warp/white
-  - name: GitKraken
-    simple_icon: git/white

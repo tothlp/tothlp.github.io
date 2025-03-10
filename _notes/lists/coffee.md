@@ -10,16 +10,7 @@ permalink: /coffee
 
 ## Felszerelés
 
-* **Brewer:** 
-  * Krups Essenza Mini (XN1108CP)
-  * Hario Mizudashi
-  * Bialetti Moka Express
-  * Aeropress (+ Fellow Prismo, optional)
-  * Nanopresso
-  * French Press
-* **Scale:** Timemore Black Mirror Basic
-* **Grinder:** 1Zpresso JX
-* **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
+Itt: [/uses#coffee](/uses#coffee)
 
 ## Receptek
 

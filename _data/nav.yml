@@ -13,9 +13,9 @@
 - title: Coffee
   icon: fa-solid fa-mug-hot fa-xs
   path: /coffee
-- title: Tools
+- title: Uses
   icon: null
-  path: /tools
+  path: /uses
 - title: Collections
   icon: null
   path: /lists
