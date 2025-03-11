@@ -50,4 +50,4 @@ permalink: /uses
 * **Grinder:** 1Zpresso JX
 * **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
 
-> <i class="fas fa-info-circle"></i> More coffee: [[Coffee]]
+> <i class="fas fa-info-circle"></i> More coffee content: [[Coffee]]

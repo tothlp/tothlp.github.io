@@ -1,7 +1,7 @@
 ---
 title: About
 content-type: static
-description: Némi háttérinfó rólam
+description: 
 permalink: /about
 layout: Post
 ---
@@ -10,12 +10,18 @@ layout: Post
 
 <div class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></div>
 <div class="about-text">
-Szeretek Tech cikkeket olvasni, illetve néhány changelogot. 🤓
-Sok angol kifejezést használok a mindennapi beszédemben és utálom a kényszerfordított szakmai kifejezéseket.
-Szeretek főzni. 👨‍🍳 
-Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok, de a hétköznapokban a jóga is segít. 🏞️ 🌲
-Kávéfüggő vagyok. ☕️ Szeretem a világos pörkölésű kávét és az alternatív elkészítési módokat. 
-Szabadidőmben néha videójátékokat nyösztetek, szigorúan konzolon. 🎮
+Több, mint 7 éve foglalkozom felhasználóbarát és jól karbantartható Java és Kotlin alapú Spring Boot alkalmazások fejlesztésével.
+Szeretek új technológiákkal megismerkedni, majd ezeket a mindennapi munkámban hasznosítani és másokkal megosztani.
+
+Rendszeresen olvasok tech cikkeket és changelogokat, hogy naprakész legyek a legújabb fejlesztésekkel kapcsolatban. 🤓
+Gyakran használok angol kifejezéseket a mindennapi beszédemben, és utálom a kényszerfordított zsargont.
+<br><br>
+
+Szeretek megúszós és finom kajákat főzni. 👨‍🍳 
+Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok, habár sajnos ritkán van erre lehetőségem. 
+A hétköznapokban a jóga is segít. 🏞️ 🌲
+Kávéfüggő vagyok, ☕️ főleg a világos pörkölésű kávét és az alternatív elkészítési módokat szeretem. 
+Szabadidőmben szívesen nyösztetek videójátékokat, szigorúan konzolon. 🎮
 </div>
 </div>
 
