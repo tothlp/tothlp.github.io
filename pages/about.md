@@ -1,13 +1,13 @@
 ---
 title: About
 content-type: static
-description: 
+description: "Utoljára frissítve: 2025. 03. 11."
 permalink: /about
 layout: Post
 ---
 
-<div class="about-container">
 
+<div class="about-container">
 <div class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></div>
 <div class="about-text">
 Több, mint 7 éve foglalkozom felhasználóbarát és jól karbantartható Java és Kotlin alapú Spring Boot alkalmazások fejlesztésével.
@@ -21,7 +21,7 @@ Szeretek megúszós és finom kajákat főzni. 👨‍🍳
 Az erdei és hegyi túrák alatt érzem úgy igazán, hogy töltőn vagyok, habár sajnos ritkán van erre lehetőségem. 
 A hétköznapokban a jóga is segít. 🏞️ 🌲
 Kávéfüggő vagyok, ☕️ főleg a világos pörkölésű kávét és az alternatív elkészítési módokat szeretem. 
-Szabadidőmben szívesen nyösztetek videójátékokat, szigorúan konzolon. 🎮
+Szabadidőmben szívesen nyösztetek videójátékokat, szigorúan konzolon. 🎮 Néha fényképezek. 📷
 </div>
 </div>
 

@@ -3,11 +3,9 @@ title: Now
 permalink: /now
 layout: Post
 content-type: static
-description: "A.K.A.: Mit csinálok mostanában?"
+description: "Utoljára frissítve: 2025. 03. 11."
 ---
 > Inspired by [nownownow.com](https://nownownow.com)
-
-<i> Utoljára frissítve: 2025. 03. 11.</i> 
 
 - Nemrégiben munkahelyet váltottam, szóval az új helyen tanulok be a technológiákba és workflowkba. 
 Elkezdtem jobban átnézni a dokumentációit a libeknek és frameworköknek, amiket használok. Nagyon sok érdekességet találok.

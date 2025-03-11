@@ -14,14 +14,8 @@ hardware:
   - name: Logitech MX Master 3S
     fa_icon: fas fa-mouse
     simple_icon:
-  - name: Ikea LAGERGÅNG
-    fa_icon: fa-regular fa-lightbulb
   - name: PS5, Steam Deck OLED 512
     fa_icon: fa-solid fa-gamepad
-  - name: Artimo Desk Mat Felt Series
-    fa_icon: fa-solid fa-rug
-  - name: Samsonite Securipak 2.0 17.3"
-    fa_icon: fa-solid fa-briefcase
 software:
   - name: IntelliJ IDEA Ultimate
     simple_icon: intellijidea/white
@@ -29,3 +23,10 @@ software:
     fa_icon: fas fa-code
   - name: Warp
     simple_icon: warp/white
+gear:
+  - name: Artimo Desk Mat Felt Series
+    fa_icon: fa-solid fa-rug
+  - name: Ikea LAGERGÅNG
+    fa_icon: fa-regular fa-lightbulb
+  - name: Samsonite Securipak 2.0 17.3"
+    fa_icon: fa-solid fa-briefcase

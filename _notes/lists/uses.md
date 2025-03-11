@@ -1,7 +1,7 @@
 ---
 title: Uses
 format: list
-description: Milyen eszközöket használok?
+description: "Utoljára frissítve: 2025. 03. 11."
 permalink: /uses
 ---
 
@@ -9,6 +9,22 @@ permalink: /uses
 
 <ul>
 {% for entry in site.data.gear.hardware %}
+<li>
+    {% if entry.fa_icon %}
+    <i class="icon-left {{entry.fa_icon}}"></i>
+    {% endif %}
+    {% if entry.simple_icon %}
+    <img src="https://cdn.simpleicons.org/{{entry.simple_icon}}" class="icon-left">
+    {% endif %}
+    {{entry.name}}
+</li>
+{% endfor %}
+</ul>
+
+## <i class="fas fa-gear"></i> HO / Gear
+
+<ul>
+{% for entry in site.data.gear.gear %}
 <li>
     {% if entry.fa_icon %}
     <i class="icon-left {{entry.fa_icon}}"></i>
