@@ -5,6 +5,15 @@ content-type: static
 permalink: /changelog
 ---
 
+#### v2.3 - 2025-03-11
+
+- Főoldal és About menü átszövegezése
+- Experience összevonása az About-tal
+- Navigáció egyszerűsítése
+- Kávés "kellékek" bevonása a Tools alá
+- Tools átnevezése Uses-ra, és ötletgazda hivatkozás felvétele
+
+
 #### v2.2 - 2025-01-27
 
 - Steam Deck kategória bevezetése a Games menüben
