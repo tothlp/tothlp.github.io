@@ -37,6 +37,7 @@
     <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
     <script src="https://kit.fontawesome.com/e1ff1f6e50.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <!--[if IE]>
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
@@ -97,15 +98,15 @@
                         li {border-bottom: 1px solid var(--color-border-light); list-style: none; padding: 0.4rem 0 0.4rem 0;}
                         .content ul { padding-left: 0px;}
                         h3 {padding-top: 1rem; padding-bottom: 0rem;}
-                    </style>                    
+                    </style>
                     {%- endif -%}
 
                     {%- if page.format == "log" -%}
-                    <!-- Layout 4 Logs-->   
+                    <!-- Layout 4 Logs-->
                     {% comment %}
                         # The following snippet checks if the cover is a URL or a local file, making it possible to use local and remote images as covers.
                         # Local images must use relative url, while remote images must use the full URL.
-                    {% endcomment %}  
+                    {% endcomment %}
                         {% if page.cover contains "http" %}
                             {% assign cover = page.cover %}
                         {% else %}
@@ -141,8 +142,8 @@
                             {%- endif -%}
                         </div>
 
-                        {%- include Content.html -%}   
-                        {%- include Backlinks.html -%}    
+                        {%- include Content.html -%}
+                        {%- include Backlinks.html -%}
                     {%- else -%}
 
 
@@ -169,16 +170,16 @@
                 <div class="jumbo">{{page.title}}</div>
                     {%- include Content.html -%}
                     {% for post in site.posts %}
-                        <div class="list-feed"> 
+                        <div class="list-feed">
                         <a href="{{ site.baseurl }}{{post.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
                             <div class="writinglist-title">{{post.title }}</div>
                         </a>
                         </div>
                     {%- endfor -%}
-            </div> 
+            </div>
 
             <ul>
-                
+
             {%- endif -%}
 
              <!--- Post Layout-->
@@ -211,13 +212,13 @@
                     <div class="title-right">
                         <p>{{ page.description }}</p>
                     </div>
-                </div>                   
+                </div>
                         {%- include Content.html -%}
                 </div>
             {%- endif -%}
         </div>
-    </section>   
-    {%- include Footer.html -%}             
+    </section>
+    {%- include Footer.html -%}
 </main>
 </body>
 </html>

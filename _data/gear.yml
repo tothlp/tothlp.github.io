@@ -1,32 +1,71 @@
-hardware:
+- category: Hardware
+  fa_icon: fas fa-microchip
+  items:
   - name: Mac mini 2023 (M2 / 16GB / 512GB)
-    fa_icon: fas fa-computer
-    simple_icon:
+    material: desktop_mac
   - name: LG 27UL850-W
-    fa_icon: fas fa-display
-    simple_icon:
+    material: monitor
   - name: Apple AirPods Pro 2 (for peace of mind)
-    fa_icon: fas fa-headphones
-    simple_icon:
-  - name: Logitech MX Mechanical Mini
-    fa_icon: fas fa-keyboard
-    simple_icon:
-  - name: Logitech MX Master 3S
-    fa_icon: fas fa-mouse
-    simple_icon:
-  - name: PS5, Steam Deck OLED 512
-    fa_icon: fa-solid fa-gamepad
-software:
+    material: headphones
+  - name: Logitech MX Mechanical Mini for Mac
+    material: keyboard
+  - name: Logitech MX Master 3S for Mac
+    material: mouse
+  - name: PS5 | Steam Deck OLED 512
+    material: sports_esports
+
+- category: Software
+  fa_icon: fas fa-code
+  info: Egy halom általam használt vagy csak egyszerűen hasznos appot / libet találhatsz még a Github profilomon
+  info_url: https://github.com/tothlp?tab=stars
+  items:
   - name: IntelliJ IDEA Ultimate
     simple_icon: intellijidea/white
   - name: VS Code
     fa_icon: fas fa-code
   - name: Warp
     simple_icon: warp/white
-gear:
+
+- category: HO / Gear
+  fa_icon: fas fa-gear
+  items:
+  - name: IKEA Relatera (995.528.65, 117x60)
+    material: desk
+    url: https://www.ikea.com/hu/hu/p/relatera-asztal-uelo-allomunkahoz-feher-s99552865/
+  - name: IKEA Markus
+    material: chair_alt
+    url: https://www.ikea.com/hu/hu/p/markus-irodai-szek-vissle-soetetszuerke-70261150/
   - name: Artimo Desk Mat Felt Series
-    fa_icon: fa-solid fa-rug
-  - name: Ikea LAGERGÅNG
-    fa_icon: fa-regular fa-lightbulb
+    material: crop_16_9
+    url: https://artimo.design/products/desk-mat-felt-series?variant=46710248079694
+  - name: IKEA LAGERGÅNG
+    material: table_lamp
+    url: https://www.ikea.com/hu/hu/p/lagergang-led-es-lampa-monitorhoz-fenyereje-szabh-tuerkiz-10542422/
   - name: Samsonite Securipak 2.0 17.3"
-    fa_icon: fa-solid fa-briefcase
+    material: personal_bag
+  - name: Bellroy Tech Kit Compact
+    material: cases
+  - name: UGREEN Nexode 65W | NOMAD USB-C Cable
+    material: battery_charging_full
+
+- category: Coffee
+  fa_icon: fas fa-coffee
+  info: Receptek, egyéb kávés tartalmak
+  info_url: /coffee
+  items:
+    - label: Pod Brewer
+      name: Krups Essenza Mini (XN1108CP)
+    - label: Coldbrew
+      name: Hario Mizudashi
+    - label: Espresso - Percolation
+      name: Bialetti Moka Express
+    - label: Filter
+      name: Aeropress (+ Fellow Prismo, optional)
+    - label: Other, non-used brewers
+      name: Nanopresso, French Press
+    - label: Scale
+      name: Timemore Black Mirror Basic
+    - label: Grinder
+      name: 1Zpresso JX
+    - label: Kettle
+      name: Tchibo (98096) elektromos hattyúnyakú vízforraló

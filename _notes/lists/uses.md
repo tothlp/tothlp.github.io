@@ -1,69 +1,54 @@
 ---
 title: Uses
 format: list
-description: "Utoljára frissítve: 2025. 03. 11."
+description: "Utoljára frissítve: 2025. 03. 12."
 permalink: /uses
 ---
 
-## <i class="fas fa-microchip"></i> Hardware
-
+{% for category in site.data.gear %}
+<h2>
+    {% if category.fa_icon %}
+        <i class="icon-left {{category.fa_icon}}"></i>
+    {% elsif category.simple_icon %}
+        <img src="https://cdn.simpleicons.org/{{category.simple_icon}}" class="icon-left" style="width: 18px;">
+    {% elsif category.material %}
+        <i class="icon-left material-symbols-outlined">{{category.material}}</i>
+    {% endif %}
+    {{category.category}}
+</h2>
+{% if category.info %}
+<blockquote>
+    <i class="fas fa-info-circle icon-left"></i> {{category.info}}:
+    {% if category.info_url %}
+        {% capture starts_with_slash %}
+          {{ category.info_url | slice: 0 | strip }}
+        {% endcapture %}
+        {% if starts_with_slash contains '/' %}
+            <a href="{{category.info_url | relative_url}}">{{category.info_url}}</a>
+        {% else %}
+            <a href="{{category.info_url}}"></a>
+        {% endif %}
+    {% endif %}
+</blockquote>
+{% endif %}
 <ul>
-{% for entry in site.data.gear.hardware %}
-<li>
-    {% if entry.fa_icon %}
-    <i class="icon-left {{entry.fa_icon}}"></i>
-    {% endif %}
-    {% if entry.simple_icon %}
-    <img src="https://cdn.simpleicons.org/{{entry.simple_icon}}" class="icon-left">
-    {% endif %}
-    {{entry.name}}
-</li>
+{% for entry in category.items %}
+    <li>
+        {% if entry.fa_icon %}
+            <i class="icon-left {{entry.fa_icon}}"></i>
+        {% elsif entry.simple_icon %}
+            <img src="https://cdn.simpleicons.org/{{entry.simple_icon}}" class="icon-left" style="width: 18px;">
+        {% elsif entry.material %}
+            <i class="icon-left material-symbols-outlined">{{entry.material}}</i>
+        {% elsif entry.label %}
+            <b>{{entry.label}}:</b>
+        {% endif %}
+        {{entry.name}}
+        {% if entry.url %}
+         <a href="{{entry.url}}" target="_blank"></a>
+        {% endif %}
+    </li>
 {% endfor %}
 </ul>
-
-## <i class="fas fa-gear"></i> HO / Gear
-
-<ul>
-{% for entry in site.data.gear.gear %}
-<li>
-    {% if entry.fa_icon %}
-    <i class="icon-left {{entry.fa_icon}}"></i>
-    {% endif %}
-    {% if entry.simple_icon %}
-    <img src="https://cdn.simpleicons.org/{{entry.simple_icon}}" class="icon-left">
-    {% endif %}
-    {{entry.name}}
-</li>
 {% endfor %}
-</ul>
 
-## <i class="fas fa-code"></i> Software
-
-<ul>
-{% for entry in site.data.gear.software %}
-<li>
-    {% if entry.fa_icon %}
-    <i class="icon-left {{entry.fa_icon}}"></i>
-    {% endif %}
-    {% if entry.simple_icon %}
-    <img src="https://cdn.simpleicons.org/{{entry.simple_icon}}" class="icon-left" style="width: 18px;">
-    {% endif %}
-    {{entry.name}}
-</li>
-{% endfor %}
-</ul>
-
-> <i class="fas fa-info-circle"></i> Egy halom általam használt vagy csak egyszerűen hasznos appot / libet találhatsz még a Github profilomon: <a href="https://github.com/tothlp?tab=stars" alt="Github Stars">https://github.com/tothlp?tab=stars</a>
-
-## <i class="fa-solid fa-mug-hot"></i><a name="coffee"></a> Coffee
-
-* **Pod Brewer:** Krups Essenza Mini (XN1108CP)
-* **Coldbrew:** Hario Mizudashi
-* **"Espresso" / Percolation:** Bialetti Moka Express
-* **Filter:**  Aeropress (+ Fellow Prismo, optional)
-* **Other, non-used brewers:** Nanopresso, French Press
-* **Scale:** Timemore Black Mirror Basic
-* **Grinder:** 1Zpresso JX
-* **Kettle:** Tchibo (98096) elektromos hattyúnyakú vízforraló
-
-> <i class="fas fa-info-circle"></i> More coffee content: [[Coffee]]
