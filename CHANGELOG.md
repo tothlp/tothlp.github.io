@@ -5,6 +5,12 @@ content-type: static
 permalink: /changelog
 ---
 
+#### v2.4 - 2025-03-12
+
+- Metaadatok javítása
+- Uses menü átalakítása: már minden adat a data file-ból jön, 
+teljesen testreszabható minden header és bejegyzés, a template módosítása nélkül
+
 #### v2.3 - 2025-03-11
 
 - Főoldal és About menü átszövegezése
