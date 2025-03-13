@@ -1,3 +1,10 @@
+- category: IRL Languages
+  items:
+  - name: Magyar
+    icon: https://img.shields.io/badge/magyar-hu-green?style=for-the-badge
+  - name: English
+    icon: https://img.shields.io/badge/English-en-blue?style=for-the-badge
+
 - category: Languages, Frameworks
   items:
   - name: Kotlin
