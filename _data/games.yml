@@ -278,7 +278,7 @@
   year: 2024
   platform: PS
   cover: hades.jpg
-  
+
 - title: The Plucky Squire
   year: 2024
   platform: PS
@@ -288,7 +288,7 @@
   year: 2024
   platform: PS
   cover: celeste.jpg
-  
+
 - title: Neva
   year: 2024
   platform: PS
@@ -346,3 +346,14 @@
   year: 2025
   platform: STEAM
   cover: cocoon.jpg
+
+- title: The Invincible
+  year: 2025
+  platform: STEAM
+  cover: the-invincible.jpeg
+
+- title: Death Stranding
+  year: 2025
+  platform: PS
+  cover: death-stranding.jpg
+  unfinished: true
