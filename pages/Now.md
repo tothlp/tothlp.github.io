@@ -3,7 +3,7 @@ title: Now
 permalink: /now
 layout: Post
 content-type: static
-description: "Utoljára frissítve: 2025. 03. 11."
+description: "Utoljára frissítve: 2025. 03. 25."
 ---
 > Inspired by [nownownow.com](https://nownownow.com)
 
@@ -14,7 +14,8 @@ Nagyjából 6 éve vagyok IntelliJ felhasználó, de még így is elég sok újd
 azt a mindset-et, hogy ha van egy bizonyos problémám, akkor gyorsan rákeresek, hogy ezt tudja-e az IDE, vagy van-e hozzá plugin. Spoiler alert: nagyon
 sok esetben VAN. Újabban az IDE dokumentációját is olvasgatom, rengeteg apró gem-et lehet találni. 
 Megint jegyzetelési válságban vagyok, szóval át szeretném dolgozni a rendszeremet. 
-Szemezgetek a [Forever * Notes](https://www.myforevernotes.com) rendszerrel, meglátjuk, hogy mi lesz belőle.
+~~Szemezgetek a [Forever * Notes](https://www.myforevernotes.com) rendszerrel, meglátjuk, hogy mi lesz belőle.~~ Az összes jegyzetem migráltam erre a rendszerre, így kb
+2 hét távlatából nagyon jól bevált.
 
 - Több változást is eszközöltem mostanában a social media használatomban. Iszonyatosan zavar a rengeteg rengeteg reklám és 
 politikai kontent. Egyrészről nagyjából majd 16 év után otthagytam a Twittert és átmigráltam Bluesky-ra. A főoldalon látszódik is, hogy lecseréltem 
@@ -26,8 +27,9 @@ ingyenes RSS olvasó, ami szépen szinkronizálja is a tartalmakat iCloud-dal. R
 - Egy-két blogon inspirálódva átalakításokat csinálok itt az oldalon: összevontam az Experience és About részt, illetve kicsit szeretném ráncfelvarrni a Uses szekciót. 
 
 - Elég sok időt töltöttem keresgéléssel everyday carry és táskák témakörben, nagyon táskamániás vagyok. Megtaláltam az új kedvenc szerelem hátizsákomat, 
-szóval egy időre hátha  ezen a fronton is nyugalmam lesz. Igyekszem legalább egy rövid nyújtás formájában a heti 2 jógát visszaépíteni 
-az életembe. A meditációval megint hadilábon állok, mivel egyszerűen nem csinálom, szóval for starters, a breathing technikákkal ismerkedek.
+szóval egy időre hátha  ezen a fronton is nyugalmam lesz. ~~Igyekszem legalább egy rövid nyújtás formájában a heti 2 jógát visszaépíteni 
+az életembe.~~ A heti kettő már simán megy, igazából emelni kellene, hogy a szívemet valami kicsit terhelje. Lehet hogy megnézem a HIIT-et is. 
+A meditációval megint hadilábon állok, mivel egyszerűen nem csinálom, szóval for starters, a breathing technikákkal ismerkedek.
 
 - Teljesen derült égből villámcsapás módon sikerült beszereznem egy Steamdeck-et (mivel van egy rakat játék ami Windows only, szóval se PS-en, se Mac-en nem tudom játszani).
 Rendesen pörgetem ezt is, amikor éppen szabadidőm van.
