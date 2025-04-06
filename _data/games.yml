@@ -362,3 +362,19 @@
   year: 2025
   platform: STEAM
   cover: spring-falls.jpg
+
+- title: White Shadows
+  year: 2025
+  platform: PS
+  cover: white-shadows.jpg
+
+- title: Split Fiction
+  year: 2025
+  platform: PS
+  cover: split-fiction.jpg
+  unfinished: true
+
+- title: My Dream Setup
+  year: 2025
+  platform: APPLE
+  cover: my-dream-setup.jpg
