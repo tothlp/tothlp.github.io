@@ -378,3 +378,9 @@
   year: 2025
   platform: APPLE
   cover: my-dream-setup.jpg
+
+- title: South of Midnight
+  year: 2025
+  platform: STEAM
+  cover: south-of-midnight.png
+  unfinished: true
