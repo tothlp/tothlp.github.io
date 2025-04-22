@@ -383,4 +383,9 @@
   year: 2025
   platform: STEAM
   cover: south-of-midnight.png
+
+- title: Solar Ash
+  year: 2025
+  platform: PS
+  cover: solar-ash.png
   unfinished: true
