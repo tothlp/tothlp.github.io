@@ -399,3 +399,14 @@
   platform: PS
   cover: the-blue-prince.jpg
   unfinished: true
+
+- title: Aperture Desk Job
+  year: 2025
+  platform: STEAM
+  cover: aperture-desk-job.jpg
+
+- title: Dredge
+  year: 2025
+  platform: STEAM
+  cover: dredge.png
+  unfinished: true
