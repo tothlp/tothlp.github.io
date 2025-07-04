@@ -409,4 +409,8 @@
   year: 2025
   platform: STEAM
   cover: dredge.png
-  unfinished: true
+
+- title: Antro
+  year: 2025
+  platform: STEAM
+  cover: antro.png
