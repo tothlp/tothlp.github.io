@@ -191,7 +191,7 @@
 - title: Röki
   year: 2023
   platform: PS
-  cover: röki.jpg
+  cover: roki.jpg
 
 - title: Oddmar
   year: 2024
@@ -414,3 +414,15 @@
   year: 2025
   platform: STEAM
   cover: antro.png
+
+- title: Slay the Spire
+  year: 2025
+  platform: STEAM
+  cover: slay-the-spire.png
+  unfinished: true
+
+- title: Katana ZERO
+  year: 2025
+  platform: STEAM
+  cover: katana-zero.png
+  unfinished: true
