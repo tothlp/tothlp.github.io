@@ -425,3 +425,19 @@
   year: 2025
   platform: STEAM
   cover: katana-zero.png
+
+- title: Is This Seat Taken?
+  year: 2025
+  platform: STEAM
+  cover: is-this-seat-taken.jpg
+
+- title: The Dark Queen of Mortholme
+  year: 2025
+  platform: STEAM
+  cover: the-dark-queen-of-mortholme.png
+
+- title: The Rogue Prince of Persia
+  year: 2025
+  platform: STEAM
+  cover: the-rogue-prince-of-persia.jpg
+  unfinished: true
