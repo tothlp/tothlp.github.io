@@ -329,7 +329,6 @@
   year: 2025
   platform: PS
   cover: alan-wake-2.jpg
-  unfinished: true
 
 - title: Hyper Light Drifter
   year: 2025
@@ -440,4 +439,14 @@
   year: 2025
   platform: STEAM
   cover: the-rogue-prince-of-persia.jpg
+
+- title: Herdling
+  year: 2025
+  platform: STEAM
+  cover: herdling.png
+
+- title: Gloomy Eyes
+  year: 2025
+  platform: STEAM
+  cover: gloomy-eyes.png
   unfinished: true
