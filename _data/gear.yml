@@ -1,12 +1,14 @@
 - category: Hardware
   fa_icon: fas fa-microchip
   items:
-  - name: Mac mini M4 (2024) (16GB / 256GB)
-    material: desktop_mac
+  - name: MacBook Air M4 (13" / 16GB / 256GB)
+    material: laptop_mac
   - name: LG 27UP85NP-W
     material: monitor
   - name: Apple AirPods Pro 2 (for peace of mind)
     material: headphones
+  - name: Edifier M60
+    material: speaker
   - name: Logitech MX Mechanical Mini for Mac
     material: keyboard
   - name: Logitech MX Master 3S for Mac
@@ -21,8 +23,8 @@
   items:
   - name: IntelliJ IDEA Ultimate
     simple_icon: intellijidea/white
-  - name: VS Code
-    fa_icon: fas fa-code
+  - name: VS Codium
+    simple_icon: vscodium/white
   - name: Warp
     simple_icon: warp/white
 
@@ -32,9 +34,6 @@
   - name: IKEA Relatera (995.528.65, 117x60)
     material: desk
     url: https://www.ikea.com/hu/hu/p/relatera-asztal-uelo-allomunkahoz-feher-s99552865/
-  - name: IKEA Markus
-    material: chair_alt
-    url: https://www.ikea.com/hu/hu/p/markus-irodai-szek-vissle-soetetszuerke-70261150/
   - name: Artimo Desk Mat Felt Series
     material: crop_16_9
     url: https://artimo.design/products/desk-mat-felt-series?variant=46710248079694
@@ -54,7 +53,7 @@
   info_url: /coffee
   items:
     - label: Pod Brewer
-      name: Krups Essenza Mini (XN1108CP)
+      name: Krups Nespresso Essenza Mini (XN1108CP)
     - label: Coldbrew
       name: Hario Mizudashi
     - label: Espresso - Percolation

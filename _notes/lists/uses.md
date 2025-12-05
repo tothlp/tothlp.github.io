@@ -1,7 +1,7 @@
 ---
 title: Uses
 format: list
-description: "Utoljára frissítve: 2025. 03. 12."
+description: "Utoljára frissítve: 2025. 12. 05."
 permalink: /uses
 ---
 
