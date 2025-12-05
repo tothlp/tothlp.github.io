@@ -449,4 +449,15 @@
   year: 2025
   platform: STEAM
   cover: gloomy-eyes.png
+
+- title: Bionic Bay
+  year: 2025
+  platform: STEAM
+  cover: bionic-bay.jpg
+  unfinished: true
+
+- title: Hades II
+  year: 2025
+  platform: STEAM
+  cover: hades2.jpg
   unfinished: true
