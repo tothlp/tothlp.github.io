@@ -461,3 +461,9 @@
   platform: STEAM
   cover: hades2.jpg
   unfinished: true
+
+- title: Death Howl
+  year: 2025
+  platform: STEAM
+  cover: death-howl.jpg
+  unfinished: true
