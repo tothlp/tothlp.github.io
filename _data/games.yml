@@ -467,3 +467,9 @@
   platform: STEAM
   cover: death-howl.jpg
   unfinished: true
+
+- title: The Alters
+  year: 2025
+  platform: STEAM
+  cover: the-alters.png
+  unfinished: true
