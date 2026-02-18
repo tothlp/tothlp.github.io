@@ -1,7 +1,13 @@
 work:
+- company: Sagemcom Magyarország Kft.
+  role: Senior Java Developer
+  period: 2025 január - jelenleg
+  link: https://www.sagemcom.hu
+  description: 
+
 - company: Régens Zrt.
   role: Full-Stack Developer
-  period: 2017 július - jelenleg
+  period: 2017 július - 2025 január
   link: https://www.regens.com
   description:
     - Többkomponensű webalkalmazások fejlesztése

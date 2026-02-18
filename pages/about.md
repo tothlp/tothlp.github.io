@@ -1,7 +1,7 @@
 ---
 title: About
 content-type: static
-description: "Utoljára frissítve: 2025. 03. 11."
+description: "Utoljára frissítve: 2026. 02. 18."
 permalink: /about
 layout: Post
 ---
